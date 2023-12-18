@@ -7,6 +7,7 @@
 
 ![Vinicius GitHub stats](https://github-readme-stats.vercel.app/api?username=Viniirb&show_icons=true&theme=dark)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Viniirb)](https://github.com/Viniirb/github-readme-stats)
+<a href="https://app.daily.dev/viniciusrolimbarbosa"><img src="https://api.daily.dev/devcards/3163b8a8a75644f3be58436f23ec8cd9.png?r=k2c" width="200" alt="Vinicius Rolim Barbosa's Dev Card"/></a>
 
 ## Tecnologias que eu uso no meu dia
 <div style="display: inline_block"><br/>
