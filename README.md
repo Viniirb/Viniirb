@@ -24,4 +24,4 @@
   <img align="center" alt="node_js" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
 </div><br/>
 
-Apaixonado por tecnologia, segurança e games 🔒💻🎮
+Apaixonado por tecnologia, segurança da informação e games 🔒💻🎮
