@@ -1,4 +1,5 @@
-### Olá, eu sou o Vinicius ✌️.
+### Olá, eu sou o Vinicius ✌️
+### Apaixonado por tecnologia, segurança da informação e games 🔒💻🎮.
 
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/vinii.__.rb/)
 [![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/VinehRB/)
@@ -7,7 +8,6 @@
 
 ![Vinicius GitHub stats](https://github-readme-stats.vercel.app/api?username=Viniirb&show_icons=true&theme=dark)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Viniirb)](https://github.com/Viniirb/github-readme-stats)
-<a href="https://app.daily.dev/viniciusrolimbarbosa"><img src="https://api.daily.dev/devcards/3163b8a8a75644f3be58436f23ec8cd9.png?r=k2c" width="200" alt="Vinicius Rolim Barbosa's Dev Card"/></a>
 
 ## Tecnologias que eu uso no meu dia
 <div style="display: inline_block"><br/>
@@ -23,5 +23,3 @@
   <img align="center" alt="java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
   <img align="center" alt="node_js" src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
 </div><br/>
-
-Apaixonado por tecnologia, segurança da informação e games 🔒💻🎮
