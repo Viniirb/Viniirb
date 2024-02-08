@@ -1,6 +1,6 @@
 ### Olá, eu sou o Vinicius ✌️
 ### Apaixonado por tecnologia, segurança da informação e games 🔒💻🎮.
-### Sou desenvolvedor Fullstack e estou focando minha carreira em estudos, aprimoramentos e expertise para minha carreira.
+### Sou desenvolvedor Fullstack e estou focando em estudos, aprimoramentos e expertise para minha carreira.
 
 ![Vinicius GitHub stats](https://github-readme-stats.vercel.app/api?username=Viniirb&show_icons=true&theme=dark)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Viniirb)
