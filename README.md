@@ -3,9 +3,6 @@
 ###
 
 <div align="center">
-  <a href="https://app.daily.dev/viniciusrolimbarbosa">
-    <img src="https://api.daily.dev/devcards/v2/2Wu3ttyDMH7zdfizYIqNL.png?type=default&r=wob" width="150" alt="Vinicius Rolim Barbosa's Dev Card"/>
-  </a>
   <img src="https://github-readme-stats.vercel.app/api?username=Viniirb&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false" height="150" alt="stats graph"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Viniirb&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
