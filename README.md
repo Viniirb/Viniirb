@@ -51,7 +51,9 @@
 ###
 
 <br clear="both">
+<div align="center">
+  <img  src="https://raw.githubusercontent.com/Viniirb/Viniirb/output/snake.svg" alt="Snake animation" />
+</div>
 
-<img align="center" src="https://raw.githubusercontent.com/Viniirb/Viniirb/output/snake.svg" alt="Snake animation" />
 
 ###
