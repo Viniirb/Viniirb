@@ -24,7 +24,7 @@
         <p>
           As someone with Autism and ADHD, I turn hyperfocus and a unique perspective into superpowers for solving complex problems and delivering high-quality work with great attention to detail.
         </p>
-      </details>      
+      </details>     
       <h3>🛠️ Tecnologias</h3>
       <p align="left"> 
         <a href="https://skillicons.dev">
@@ -64,9 +64,9 @@
 
 <br>
 
-### 🎧 Spotify - Top Tracks
+### 🎧 Spotify - Now Playing
 <div align="left">
   <a href="https://open.spotify.com/user/u9kp8fp63bu6f7mlw13jwvfna?si=c1PsexOwQmeg2cguTgDuxQ">
-    <img src="https://spotify-top-tracks.vercel.app/api/top-tracks?user_id=31jmmbzz42jjz2g3glrwxb54nckq&theme=dracula&limit=5&hide_progress=true" alt="Spotify Top Tracks"/>
+    <img src="https://spotify-github-profile.vercel.app/api/spotify?user_id=u9kp8fp63bu6f7mlw13jwvfna&theme=dark" alt="Spotify Now Playing"/>
   </a>
 </div>
