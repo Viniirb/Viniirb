@@ -64,9 +64,9 @@
 
 <br>
 
-### 🎧 Spotify - Now Playing
+### 🎧 Spotify - Top Tracks
 <div align="left">
   <a href="https://open.spotify.com/user/u9kp8fp63bu6f7mlw13jwvfna?si=c1PsexOwQmeg2cguTgDuxQ">
-    <img src="https://spotify-github-profile.vercel.app/api/spotify?user_id=u9kp8fp63bu6f7mlw13jwvfna&theme=dark" alt="Spotify Now Playing"/>
+    <img src="https://spotify-top-tracks.vercel.app/api/top-tracks?user_id=u9kp8fp63bu6f7mlw13jwvfna&theme=dracula&limit=5&hide_progress=true" alt="Spotify Top Tracks"/>
   </a>
 </div>
