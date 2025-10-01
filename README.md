@@ -14,7 +14,7 @@
       </p>
       <p>
         Como autista e TDAH, transformo o hiperfoco e uma perspectiva única em superpoderes para resolver problemas complexos e entregar um trabalho de alta qualidade e atenção aos detalhes.
-      </p>      
+      </p>
       <details>
         <summary>🇬🇧 Click to see the English version</summary>
         <br>
@@ -24,14 +24,14 @@
         <p>
           As someone with Autism and ADHD, I turn hyperfocus and a unique perspective into superpowers for solving complex problems and delivering high-quality work with great attention to detail.
         </p>
-      </details>     
+      </details>
       <h3>🛠️ Tecnologias</h3>
       <p align="left"> 
         <a href="https://skillicons.dev">
           <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,angular,py,cs,graphql,git,docker,postman,linux,vscode" />
         </a>
       </p>
-    </td>    
+    </td>
     <td valign="top" width="35%">
       <div style="margin-bottom: 20px;"> 
         <img src="https://github-readme-stats.vercel.app/api?username=Viniirb&show_icons=true&theme=dracula&include_all_commits=true&locale=pt-br&card_width=400&hide_border=true" alt="GitHub stats"/>
@@ -48,25 +48,40 @@
 ### 🌐 Contato e Links
 
 <div align="left">
-  <a href="mailto:vinii.rbarbosa@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="mailto:viniirb@proton.me">
-    <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white" alt="ProtonMail"/>
-  </a>
-  <a href="https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/Viniirb?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositórios-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositórios"/>
-  </a>
+  <table border="0" cellspacing="5" cellpadding="5">
+    <tr>
+      <td>
+        <a href="mailto:vinii.rbarbosa@gmail.com">
+          <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+        </a>
+      </td>
+      <td>
+        <a href="mailto:viniirb@proton.me">
+          <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white" alt="ProtonMail"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/">
+          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/Viniirb?tab=repositories">
+          <img src="https://img.shields.io/badge/Repositórios-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositórios"/>
+        </a>
+      </td>
+      <td>
+        <a href="https://myportifolio-vinicius.vercel.app/">
+          <img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"/>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
-<br>
+---
 
-### 🎧 Spotify - Top Tracks
+### 🎧 Spotify - Now Playing
 <div align="left">
-  <a href="https://open.spotify.com/user/u9kp8fp63bu6f7mlw13jwvfna?si=c1PsexOwQmeg2cguTgDuxQ">
-    <img src="https://spotify-top-tracks.vercel.app/api/top-tracks?user_id=u9kp8fp63bu6f7mlw13jwvfna&theme=dracula&limit=5&hide_progress=true" alt="Spotify Top Tracks"/>
-  </a>
+ <h2>wait, it will be created...</h2>
 </div>
