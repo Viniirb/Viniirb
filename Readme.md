@@ -93,7 +93,7 @@
 ### 🎧 Spotify - Now Playing
 
 <div align="left">
-
- <h2>wait, it will be created...</h2>
-
+   <a hrf="#">
+     <img src="meu-spotify-badge-88l8oqt06-viniirbs-projects.vercel.app/api/spotify?theme=dark" alt="Spotify Now Playing"/>
+   </a>
 </div>
