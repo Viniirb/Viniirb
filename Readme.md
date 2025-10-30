@@ -88,15 +88,3 @@
 
 </div>
 
----
-
-### 🎧 Spotify - Now Playing
-
-<div align="left">
-   <a href="https://open.spotify.com/user/u9kp8fp63bu6f7mlw13jwvfna">
-     <img 
-      src="https://meu-spotify-badge.vercel.app/api/spotify?theme=dark" 
-      alt="Spotify Now Playing" 
-      />
-   </a>
-</div>
