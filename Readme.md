@@ -6,40 +6,38 @@
 
 ---
 
-<table width="100%" border="0">
-  <tr>
-    <td valign="top" width="60%">
-      <h3>👨‍💻 Sobre Mim</h3>
-      <p>
-        Olá! 👋 Sou um desenvolvedor Full-Stack apaixonado por criar soluções inovadoras e eficientes. Atualmente, estou cursando Ciência da Computação em <strong>Joinville, SC</strong>, e busco constantemente expandir meu conhecimento em novas tecnologias.
-      </p>
-      <p>
-        Como autista e TDAH, transformo o hiperfoco e uma perspectiva única em superpoderes para resolver problemas complexos e entregar um trabalho de alta qualidade e atenção aos detalhes.
-      </p>
-      <details>
-        <summary>🇬🇧 Click to see the English version</summary>
-        <br>
-        <p>
-          Hello! 👋 I'm a passionate Full-Stack Developer focused on creating innovative and efficient solutions. Currently, I'm pursuing a degree in Computer Science in <strong>Joinville, SC - Brazil</strong>, and I'm constantly seeking to expand my knowledge in new technologies.
-        </p>
-        <p>
-          As someone with Autism and ADHD, I turn hyperfocus and a unique perspective into superpowers for solving complex problems and delivering high-quality work with great attention to detail.
-        </p>
-      </details>
-      <h3>🛠️ Tecnologias</h3>
-      <p align="left"> 
-        <a href="https://skillicons.dev">
-          <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,angular,py,cs,graphql,git,docker,postman,linux,vscode" />
-        </a>
-      </p>
-    </td>
-    <td valign="top" width="40%">
-      <div align="center">
-        <img src="https://github.com/Viniirb/Viniirb/blob/main/github-metrics.svg" alt="Metrics Viniirb" width="100%"/>
-      </div>
-    </td>
-  </tr>
-</table>
+### 👨‍💻 Sobre Mim
+
+Olá! 👋 Sou um desenvolvedor Full-Stack apaixonado por criar soluções inovadoras e eficientes. Atualmente, estou cursando Ciência da Computação em <strong>Joinville, SC</strong>, e busco constantemente expandir meu conhecimento em novas tecnologias.
+
+Como autista e TDAH, transformo o hiperfoco e uma perspectiva única em superpoderes para resolver problemas complexos e entregar um trabalho de alta qualidade e atenção aos detalhes.
+
+<details>
+  <summary>🇬🇧 Click to see the English version</summary>
+  <br>
+  <p>
+    Hello! 👋 I'm a passionate Full-Stack Developer focused on creating innovative and efficient solutions. Currently, I'm pursuing a degree in Computer Science in <strong>Joinville, SC - Brazil</strong>, and I'm constantly seeking to expand my knowledge in new technologies.
+  </p>
+  <p>
+    As someone with Autism and ADHD, I turn hyperfocus and a unique perspective into superpowers for solving complex problems and delivering high-quality work with great attention to detail.
+  </p>
+</details>
+
+<br>
+
+### 🛠️ Tecnologias
+<div align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,angular,py,cs,graphql,git,docker,postman,linux,vscode" />
+  </a>
+</div>
+
+---
+
+### 📊 Estatísticas e Hobbies
+<div align="center">
+  <img src="https://github.com/Viniirb/Viniirb/blob/main/github-metrics.svg" alt="Metrics Viniirb" width="100%"/>
+</div>
 
 ---
 
