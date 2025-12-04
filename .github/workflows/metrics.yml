@@ -36,11 +36,11 @@ jobs:
           
           # Plugin: Steam 
           # Configure o segredo STEAM_TOKEN e troque o ID abaixo
-          plugin_steam: yes
-          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-          plugin_steam_user: "SEU_ID_NUMERICO_DA_STEAM_AQUI" 
-          plugin_steam_sections: player, most-played
-          plugin_steam_achievements_limit: 0
+          # plugin_steam: yes
+          # plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          # plugin_steam_user: "SEU_ID_NUMERICO_DA_STEAM_AQUI" 
+          # plugin_steam_sections: player, most-played
+          # plugin_steam_achievements_limit: 0
           
           # Plugin: Spotify
           # Configure o segredo SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REFRESH_TOKEN
