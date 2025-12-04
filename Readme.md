@@ -1,17 +1,14 @@
 <div align="center">
-
   <img src="https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=200&section=header&text=Vinicius%20Rolim%20Barbosa&fontSize=60&fontFamily=Dancing%20Script&animation=fadeIn&fontColor=FFFFFF" alt="Cabeçalho Animado"/>
-
+  
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Estudante+de+Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o;Neurodivergente+%F0%9F%A7%A0" alt="Bio Animada"/>
-
 </div>
 
 ---
 
-<table width="100%">
-
+<table width="100%" border="0">
   <tr>
-    <td valign="top" width="65%">
+    <td valign="top" width="60%">
       <h3>👨‍💻 Sobre Mim</h3>
       <p>
         Olá! 👋 Sou um desenvolvedor Full-Stack apaixonado por criar soluções inovadoras e eficientes. Atualmente, estou cursando Ciência da Computação em <strong>Joinville, SC</strong>, e busco constantemente expandir meu conhecimento em novas tecnologias.
@@ -36,9 +33,9 @@
         </a>
       </p>
     </td>
-    <td valign="top" width="35%">
-      <div>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Viniirb&layout=compact&theme=dracula&locale=pt-br&card_width=400&hide_border=true" alt="Top Languages"/>
+    <td valign="top" width="40%">
+      <div align="center">
+        <img src="https://github.com/Viniirb/Viniirb/blob/main/github-metrics.svg" alt="Metrics Viniirb" width="100%"/>
       </div>
     </td>
   </tr>
@@ -52,10 +49,9 @@
 </div>
 
 ---
+
 ### 🌐 Contato e Links
-
-<div align="left">
-
+<div align="center">
   <table border="0" cellspacing="5" cellpadding="5">
     <tr>
       <td>
@@ -85,6 +81,4 @@
       </td>
     </tr>
   </table>
-
 </div>
-
