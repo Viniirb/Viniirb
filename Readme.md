@@ -34,9 +34,16 @@ Como autista e TDAH, transformo o hiperfoco e uma perspectiva única em superpod
 
 ---
 
-### 📊 Estatísticas e Hobbies
+### 📊 Estatísticas
 <div align="center">
-  <img src="https://github.com/Viniirb/Viniirb/blob/main/github-metrics.svg" alt="Metrics Viniirb" width="100%"/>
+  <img src="https://github.com/Viniirb/Viniirb/blob/main/languages.svg" alt="Top Langs" width="100%"/>
+</div>
+
+---
+
+### 🎮 Hobbies & Música
+<div align="center">
+  <img src="https://github.com/Viniirb/Viniirb/blob/main/hobbies.svg" alt="Hobbies" width="100%"/>
 </div>
 
 ---
