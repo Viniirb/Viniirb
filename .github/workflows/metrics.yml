@@ -50,11 +50,11 @@ jobs:
           plugin_languages: no
           
           # Plugin: Steam
-          # plugin_steam: yes
-          # plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
-          # plugin_steam_user: "76561198160064299" # Seu ID que vi na imagem (confirme se é esse!)
-          # plugin_steam_sections: player, most-played
-          # plugin_steam_achievements_limit: 0
+          plugin_steam: yes
+          plugin_steam_token: ${{ secrets.STEAM_TOKEN }}
+          plugin_steam_user: "76561198304084021"
+          plugin_steam_sections: player, most-played
+          plugin_steam_achievements_limit: 0
           
           # Plugin: Spotify
           plugin_music: yes
