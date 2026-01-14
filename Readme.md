@@ -66,21 +66,26 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
 </div>
 
 
+
 <!-- REPOS-LIST:START -->
 <details>
-  <summary>Ver lista completa de repositórios</summary>
+  <summary><strong>📂 Ver lista completa de repositórios</strong></summary>
   <br>
 
-Atualizado automaticamente em 2026-01-14 19:13 UTC.
+<div align="center">
 
-| Repositório | Linguagem | Stars | Último push |
-|---|---:|---:|---:|
-| [Viniirb/Viniirb](https://github.com/Viniirb/Viniirb) | Python | 1 | 2026-01-14 |
-| [Viniirb/neural-networks-from-scratch](https://github.com/Viniirb/neural-networks-from-scratch) | Python | 0 | 2026-01-14 |
-| [Viniirb/portifolio](https://github.com/Viniirb/portifolio) | TypeScript | 0 | 2026-01-07 |
-| [Viniirb/agent_database](https://github.com/Viniirb/agent_database) | Python | 0 | 2025-12-04 |
-| [Viniirb/Bootcamp](https://github.com/Viniirb/Bootcamp) | Python | 0 | 2025-12-01 |
-| [Viniirb/NLW-Expert---Rocketseat](https://github.com/Viniirb/NLW-Expert---Rocketseat) | Python | 0 | 2024-02-08 |
+*Atualizado automaticamente em 2026-01-14 às 19:18 UTC*
+
+| Repositório | Linguagem | ⭐ Stars | 📅 Último push |
+|:---|:---:|:---:|:---:|
+| **[Viniirb](https://github.com/Viniirb/Viniirb)** | ![Python](https://img.shields.io/badge/-Python-555?style=flat-square) | 1 | 2026-01-14 |
+| **[neural-networks-from-scratch](https://github.com/Viniirb/neural-networks-from-scratch)** | ![Python](https://img.shields.io/badge/-Python-555?style=flat-square) | 0 | 2026-01-14 |
+| **[portifolio](https://github.com/Viniirb/portifolio)** | ![TypeScript](https://img.shields.io/badge/-TypeScript-555?style=flat-square) | 0 | 2026-01-07 |
+| **[agent_database](https://github.com/Viniirb/agent_database)** | ![Python](https://img.shields.io/badge/-Python-555?style=flat-square) | 0 | 2025-12-04 |
+| **[Bootcamp](https://github.com/Viniirb/Bootcamp)** | ![Python](https://img.shields.io/badge/-Python-555?style=flat-square) | 0 | 2025-12-01 |
+| **[NLW-Expert---Rocketseat](https://github.com/Viniirb/NLW-Expert---Rocketseat)** | ![Python](https://img.shields.io/badge/-Python-555?style=flat-square) | 0 | 2024-02-08 |
+
+</div>
 </details>
 <!-- REPOS-LIST:END -->
 ---
