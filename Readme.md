@@ -65,10 +65,6 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
   </picture>
 </div>
 
-
-
-
-<!-- REPOS-LIST:START -->
 <details>
   <summary><strong>📂 Ver lista completa de repositórios</strong> <kbd>6 repositórios</kbd></summary>
   <br>
@@ -128,7 +124,7 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
 
 </div>
 </details>
-<!-- REPOS-LIST:END -->
+
 ---
 
 ## Atividade recente

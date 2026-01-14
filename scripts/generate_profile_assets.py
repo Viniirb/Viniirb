@@ -326,24 +326,10 @@ def update_readme_repo_section(username: str, repos: list[RepoInfo]) -> None:
         except Exception:
             return iso
 
-    # Render as beautiful visual cards
+    # Render as beautiful visual cards - ALWAYS VISIBLE (no collapsible)
     lines: list[str] = []
     lines.append(start_marker)
-    lines.append("<details>")
-    lines.append(f'  <summary><strong>📂 Ver todos os {len(repos)} repositórios</strong></summary>')
-    lines.append("  <br>")
     lines.append("")
-    
-    # Add custom CSS for cards
-    lines.append("<style>")
-    lines.append(".repo-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; margin: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }")
-    lines.append(".repo-card:hover { transform: translateY(-5px); box-shadow: 0 8px 12px rgba(0,0,0,0.2); }")
-    lines.append(".repo-name { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 10px; }")
-    lines.append(".repo-stats { display: flex; gap: 15px; margin-top: 10px; }")
-    lines.append(".stat { background: rgba(255,255,255,0.2); padding: 5px 12px; border-radius: 20px; font-size: 13px; color: #fff; }")
-    lines.append("</style>")
-    lines.append("")
-    
     lines.append(f"<p align='center'><em>📅 Atualizado em {dt.datetime.now(dt.timezone.utc).strftime('%d/%m/%Y às %H:%M UTC')}</em></p>")
     lines.append("")
     lines.append('<div align="center">')
@@ -369,7 +355,7 @@ def update_readme_repo_section(username: str, repos: list[RepoInfo]) -> None:
     
     lines.append("")
     lines.append("</div>")
-    lines.append("</details>")
+    lines.append("")
     lines.append(end_marker)
 
     before = content[: start_idx]
