@@ -83,18 +83,20 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
 ## 💬 Contato
 
 <div align="center">
-  <a href="mailto:vinii.rbarbosa@gmail.com" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="mailto:viniirb@pm.me" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/ProtonMail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white" alt="ProtonMail"/>
-  </a>
-  <a href="https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://myportifolio-vinicius.vercel.app/" style="text-decoration: none;">
-    <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"/>
-  </a>
+  <p>
+    <a href="mailto:vinii.rbarbosa@gmail.com">
+      <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Gmail" height="45"/>
+    </a>
+    <a href="mailto:viniirb@pm.me">
+      <img src="https://img.shields.io/badge/ProtonMail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=6D4AFF" alt="ProtonMail" height="45"/>
+    </a>
+    <a href="https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/">
+      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" height="45"/>
+    </a>
+    <a href="https://myportifolio-vinicius.vercel.app/">
+      <img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfólio" height="45"/>
+    </a>
+  </p>
 </div>
 
 <div align="center">
