@@ -82,20 +82,14 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
 
 ## 💬 Contato
 
-<p align="center">
-  <a href="mailto:vinii.rbarbosa@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Gmail" height="50"/>
-  </a>
-  <a href="mailto:viniirb@pm.me">
-    <img src="https://img.shields.io/badge/ProtonMail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=6D4AFF" alt="ProtonMail" height="50"/>
-  </a>
-  <a href="https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" height="50"/>
-  </a>
-  <a href="https://myportifolio-vinicius.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfólio" height="50"/>
-  </a>
-</p>
+<div align="center">
+
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinii.rbarbosa@gmail.com)
+[![ProtonMail](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:viniirb@pm.me)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://myportifolio-vinicius.vercel.app/)
+
+</div>
 
 <p align="center">
   <em>✨ Escolha seu canal preferido de contato ✨</em>
