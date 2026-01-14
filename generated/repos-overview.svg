@@ -18,28 +18,31 @@
 <text x="24" y="92" class="label" fill="#c9d1d9">portifolio</text>
 <rect x="264" y="82" width="280" height="12" rx="6" fill="#21262d"/>
 <rect x="264" y="82" width="280" height="12" rx="6" fill="url(#barGradient)"/>
-<text x="264" y="112" class="stat" fill="#8b949e">💬 3 commits</text>
+<text x="264" y="112" class="stat" fill="#8b949e">💬 31 commits</text>
 <text x="364" y="112" class="stat" fill="#8b949e">⭐ 0</text>
 <text x="434" y="112" class="stat" fill="#8b949e">📅 07/01/26</text>
-<text x="24" y="142" class="label" fill="#c9d1d9">agent_database</text>
+<text x="24" y="142" class="label" fill="#c9d1d9">NLW-Expert---Rocketseat</text>
 <rect x="264" y="132" width="280" height="12" rx="6" fill="#21262d"/>
-<rect x="264" y="132" width="186" height="12" rx="6" fill="url(#barGradient)"/>
-<text x="264" y="162" class="stat" fill="#8b949e">💬 2 commits</text>
+<rect x="264" y="132" width="108" height="12" rx="6" fill="url(#barGradient)"/>
+<text x="264" y="162" class="stat" fill="#8b949e">💬 12 commits</text>
 <text x="364" y="162" class="stat" fill="#8b949e">⭐ 0</text>
-<text x="434" y="162" class="stat" fill="#8b949e">📅 04/12/25</text>
-<text x="24" y="192" class="label" fill="#c9d1d9">neural-networks-from-scratch</text>
+<text x="434" y="162" class="stat" fill="#8b949e">📅 08/02/24</text>
+<text x="24" y="192" class="label" fill="#c9d1d9">agent_database</text>
 <rect x="264" y="182" width="280" height="12" rx="6" fill="#21262d"/>
-<text x="264" y="212" class="stat" fill="#8b949e">💬 0 commits</text>
+<rect x="264" y="182" width="99" height="12" rx="6" fill="url(#barGradient)"/>
+<text x="264" y="212" class="stat" fill="#8b949e">💬 11 commits</text>
 <text x="364" y="212" class="stat" fill="#8b949e">⭐ 0</text>
-<text x="434" y="212" class="stat" fill="#8b949e">📅 14/01/26</text>
-<text x="24" y="242" class="label" fill="#c9d1d9">Bootcamp</text>
+<text x="434" y="212" class="stat" fill="#8b949e">📅 04/12/25</text>
+<text x="24" y="242" class="label" fill="#c9d1d9">neural-networks-from-scratch</text>
 <rect x="264" y="232" width="280" height="12" rx="6" fill="#21262d"/>
-<text x="264" y="262" class="stat" fill="#8b949e">💬 0 commits</text>
+<rect x="264" y="232" width="18" height="12" rx="6" fill="url(#barGradient)"/>
+<text x="264" y="262" class="stat" fill="#8b949e">💬 2 commits</text>
 <text x="364" y="262" class="stat" fill="#8b949e">⭐ 0</text>
-<text x="434" y="262" class="stat" fill="#8b949e">📅 01/12/25</text>
-<text x="24" y="292" class="label" fill="#c9d1d9">NLW-Expert---Rocketseat</text>
+<text x="434" y="262" class="stat" fill="#8b949e">📅 14/01/26</text>
+<text x="24" y="292" class="label" fill="#c9d1d9">Bootcamp</text>
 <rect x="264" y="282" width="280" height="12" rx="6" fill="#21262d"/>
-<text x="264" y="312" class="stat" fill="#8b949e">💬 0 commits</text>
+<rect x="264" y="282" width="18" height="12" rx="6" fill="url(#barGradient)"/>
+<text x="264" y="312" class="stat" fill="#8b949e">💬 2 commits</text>
 <text x="364" y="312" class="stat" fill="#8b949e">⭐ 0</text>
-<text x="434" y="312" class="stat" fill="#8b949e">📅 08/02/24</text>
+<text x="434" y="312" class="stat" fill="#8b949e">📅 01/12/25</text>
 </svg>
