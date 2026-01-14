@@ -56,31 +56,80 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
 </div>
 
 
+
 <!-- REPOS-LIST:START -->
 
-<p align='center'><em>📅 Atualizado em 14/01/2026 às 19:28 UTC</em></p>
+<p align='center'><em>📅 Atualizado em 14/01/2026 às 19:32 UTC</em></p>
 
 <div align="center">
 
-<a href="https://github.com/Viniirb/Viniirb">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=Viniirb&theme=radical&hide_border=true" alt="Viniirb" />
+<a href="https://github.com/Viniirb/Viniirb" style="text-decoration: none; display: inline-block; margin: 8px;">
+  <div style="width: 400px; height: 120px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); position: relative; overflow: hidden;">
+    <div style="position: absolute; top: 0; right: 0; width: 100px; height: 100px; background: rgba(255,255,255,0.1); border-radius: 0 12px 0 100px;"></div>
+    <h3 style="color: #fff; margin: 0 0 8px 0; font-size: 18px; font-weight: 700;">📦 Viniirb</h3>
+    <div style="display: flex; gap: 12px; align-items: center; margin-top: 12px;">
+      <span style="background: rgba(255,255,255,0.25); padding: 4px 10px; border-radius: 12px; font-size: 12px; color: #fff; font-weight: 600;">Python</span>
+      <span style="color: rgba(255,255,255,0.9); font-size: 13px;">⭐ 1</span>
+      <span style="color: rgba(255,255,255,0.75); font-size: 12px; margin-left: auto;">📅 2026-01-14</span>
+    </div>
+  </div>
 </a>
-<a href="https://github.com/Viniirb/neural-networks-from-scratch">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=neural-networks-from-scratch&theme=radical&hide_border=true" alt="neural-networks-from-scratch" />
+<a href="https://github.com/Viniirb/neural-networks-from-scratch" style="text-decoration: none; display: inline-block; margin: 8px;">
+  <div style="width: 400px; height: 120px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); position: relative; overflow: hidden;">
+    <div style="position: absolute; top: 0; right: 0; width: 100px; height: 100px; background: rgba(255,255,255,0.1); border-radius: 0 12px 0 100px;"></div>
+    <h3 style="color: #fff; margin: 0 0 8px 0; font-size: 18px; font-weight: 700;">📦 neural-networks-from-scratch</h3>
+    <div style="display: flex; gap: 12px; align-items: center; margin-top: 12px;">
+      <span style="background: rgba(255,255,255,0.25); padding: 4px 10px; border-radius: 12px; font-size: 12px; color: #fff; font-weight: 600;">Python</span>
+      <span style="color: rgba(255,255,255,0.9); font-size: 13px;">⭐ 0</span>
+      <span style="color: rgba(255,255,255,0.75); font-size: 12px; margin-left: auto;">📅 2026-01-14</span>
+    </div>
+  </div>
 </a>
 <br>
-<a href="https://github.com/Viniirb/portifolio">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=portifolio&theme=radical&hide_border=true" alt="portifolio" />
+<a href="https://github.com/Viniirb/portifolio" style="text-decoration: none; display: inline-block; margin: 8px;">
+  <div style="width: 400px; height: 120px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); position: relative; overflow: hidden;">
+    <div style="position: absolute; top: 0; right: 0; width: 100px; height: 100px; background: rgba(255,255,255,0.1); border-radius: 0 12px 0 100px;"></div>
+    <h3 style="color: #fff; margin: 0 0 8px 0; font-size: 18px; font-weight: 700;">📦 portifolio</h3>
+    <div style="display: flex; gap: 12px; align-items: center; margin-top: 12px;">
+      <span style="background: rgba(255,255,255,0.25); padding: 4px 10px; border-radius: 12px; font-size: 12px; color: #fff; font-weight: 600;">TypeScript</span>
+      <span style="color: rgba(255,255,255,0.9); font-size: 13px;">⭐ 0</span>
+      <span style="color: rgba(255,255,255,0.75); font-size: 12px; margin-left: auto;">📅 2026-01-07</span>
+    </div>
+  </div>
 </a>
-<a href="https://github.com/Viniirb/agent_database">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=agent_database&theme=radical&hide_border=true" alt="agent_database" />
+<a href="https://github.com/Viniirb/agent_database" style="text-decoration: none; display: inline-block; margin: 8px;">
+  <div style="width: 400px; height: 120px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); position: relative; overflow: hidden;">
+    <div style="position: absolute; top: 0; right: 0; width: 100px; height: 100px; background: rgba(255,255,255,0.1); border-radius: 0 12px 0 100px;"></div>
+    <h3 style="color: #fff; margin: 0 0 8px 0; font-size: 18px; font-weight: 700;">📦 agent_database</h3>
+    <div style="display: flex; gap: 12px; align-items: center; margin-top: 12px;">
+      <span style="background: rgba(255,255,255,0.25); padding: 4px 10px; border-radius: 12px; font-size: 12px; color: #fff; font-weight: 600;">Python</span>
+      <span style="color: rgba(255,255,255,0.9); font-size: 13px;">⭐ 0</span>
+      <span style="color: rgba(255,255,255,0.75); font-size: 12px; margin-left: auto;">📅 2025-12-04</span>
+    </div>
+  </div>
 </a>
 <br>
-<a href="https://github.com/Viniirb/Bootcamp">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=Bootcamp&theme=radical&hide_border=true" alt="Bootcamp" />
+<a href="https://github.com/Viniirb/Bootcamp" style="text-decoration: none; display: inline-block; margin: 8px;">
+  <div style="width: 400px; height: 120px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); position: relative; overflow: hidden;">
+    <div style="position: absolute; top: 0; right: 0; width: 100px; height: 100px; background: rgba(255,255,255,0.1); border-radius: 0 12px 0 100px;"></div>
+    <h3 style="color: #fff; margin: 0 0 8px 0; font-size: 18px; font-weight: 700;">📦 Bootcamp</h3>
+    <div style="display: flex; gap: 12px; align-items: center; margin-top: 12px;">
+      <span style="background: rgba(255,255,255,0.25); padding: 4px 10px; border-radius: 12px; font-size: 12px; color: #fff; font-weight: 600;">Python</span>
+      <span style="color: rgba(255,255,255,0.9); font-size: 13px;">⭐ 0</span>
+      <span style="color: rgba(255,255,255,0.75); font-size: 12px; margin-left: auto;">📅 2025-12-01</span>
+    </div>
+  </div>
 </a>
-<a href="https://github.com/Viniirb/NLW-Expert---Rocketseat">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=NLW-Expert---Rocketseat&theme=radical&hide_border=true" alt="NLW-Expert---Rocketseat" />
+<a href="https://github.com/Viniirb/NLW-Expert---Rocketseat" style="text-decoration: none; display: inline-block; margin: 8px;">
+  <div style="width: 400px; height: 120px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); position: relative; overflow: hidden;">
+    <div style="position: absolute; top: 0; right: 0; width: 100px; height: 100px; background: rgba(255,255,255,0.1); border-radius: 0 12px 0 100px;"></div>
+    <h3 style="color: #fff; margin: 0 0 8px 0; font-size: 18px; font-weight: 700;">📦 NLW-Expert---Rocketseat</h3>
+    <div style="display: flex; gap: 12px; align-items: center; margin-top: 12px;">
+      <span style="background: rgba(255,255,255,0.25); padding: 4px 10px; border-radius: 12px; font-size: 12px; color: #fff; font-weight: 600;">Python</span>
+      <span style="color: rgba(255,255,255,0.9); font-size: 13px;">⭐ 0</span>
+      <span style="color: rgba(255,255,255,0.75); font-size: 12px; margin-left: auto;">📅 2024-02-08</span>
+    </div>
+  </div>
 </a>
 <br>
 
