@@ -313,9 +313,27 @@ def update_readme_repo_section(username: str, repos: list[RepoInfo]) -> None:
     end_marker = "<!-- REPOS-LIST:END -->"
     content = readme_path.read_text(encoding="utf-8")
 
+    print(f"📖 Reading {readme_path.name}...")
+    print(f"   File size: {len(content)} chars")
+    print(f"   Looking for: {start_marker}")
+    print(f"   Found START at position: {content.find(start_marker)}")
+    print(f"   Found END at position: {content.find(end_marker)}")
+    
     start_idx = content.find(start_marker)
     end_idx = content.find(end_marker)
     if start_idx == -1 or end_idx == -1 or end_idx <= start_idx:
+        print("\n❌ Markers not found or invalid!")
+        print(f"   START marker found: {start_idx != -1}")
+        print(f"   END marker found: {end_idx != -1}")
+        if start_idx != -1 and end_idx != -1:
+            print(f"   Distance between markers: {end_idx - start_idx} chars")
+        print("\nSearching for similar patterns...")
+        if "REPOS-LIST" in content:
+            print("   ✓ Found 'REPOS-LIST' in file")
+            # Show lines with REPOS-LIST
+            for i, line in enumerate(content.split('\n'), 1):
+                if "REPOS-LIST" in line:
+                    print(f"   Line {i}: {repr(line)}")
         raise RuntimeError("Repo markers not found in README. Add REPOS-LIST markers first.")
 
     def fmt_date(iso: str | None) -> str:
