@@ -65,9 +65,38 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
   </picture>
 </div>
 
-<!-- REPOS-LIST:START -->
-<!-- REPOS-LIST:END -->
 
+<!-- REPOS-LIST:START -->
+
+<p align='center'><em>📅 Atualizado em 14/01/2026 às 19:28 UTC</em></p>
+
+<div align="center">
+
+<a href="https://github.com/Viniirb/Viniirb">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=Viniirb&theme=radical&hide_border=true" alt="Viniirb" />
+</a>
+<a href="https://github.com/Viniirb/neural-networks-from-scratch">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=neural-networks-from-scratch&theme=radical&hide_border=true" alt="neural-networks-from-scratch" />
+</a>
+<br>
+<a href="https://github.com/Viniirb/portifolio">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=portifolio&theme=radical&hide_border=true" alt="portifolio" />
+</a>
+<a href="https://github.com/Viniirb/agent_database">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=agent_database&theme=radical&hide_border=true" alt="agent_database" />
+</a>
+<br>
+<a href="https://github.com/Viniirb/Bootcamp">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=Bootcamp&theme=radical&hide_border=true" alt="Bootcamp" />
+</a>
+<a href="https://github.com/Viniirb/NLW-Expert---Rocketseat">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=NLW-Expert---Rocketseat&theme=radical&hide_border=true" alt="NLW-Expert---Rocketseat" />
+</a>
+<br>
+
+</div>
+
+<!-- REPOS-LIST:END -->
 ---
 
 ## Atividade recente
