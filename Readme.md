@@ -153,19 +153,9 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
 ## Contato
 
 <div align="center">
-  <a href="mailto:vinii.rbarbosa@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="mailto:viniirb@proton.me">
-    <img src="https://img.shields.io/badge/ProtonMail-8B89CC?style=flat-square&logo=protonmail&logoColor=white" alt="ProtonMail"/>
-  </a>
-  <a href="https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://github.com/Viniirb?tab=repositories">
-    <img src="https://img.shields.io/badge/Repositórios-181717?style=flat-square&logo=github&logoColor=white" alt="Repositórios"/>
-  </a>
-  <a href="https://myportifolio-vinicius.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfólio-000000?style=flat-square&logo=vercel&logoColor=white" alt="Portfólio"/>
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Viniirb/Viniirb/main/generated/contact-card.svg?sanitize=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Viniirb/Viniirb/main/generated/contact-card.svg?sanitize=true">
+    <img src="https://raw.githubusercontent.com/Viniirb/Viniirb/main/generated/contact-card.svg?sanitize=true" alt="Contato" width="100%" />
+  </picture>
 </div>
