@@ -326,24 +326,52 @@ def update_readme_repo_section(username: str, repos: list[RepoInfo]) -> None:
         except Exception:
             return iso
 
-    # Render table (full list) inside a collapsible <details> to keep the README readable.
+    # Render as visually appealing cards instead of a plain table
     lines: list[str] = []
     lines.append(start_marker)
     lines.append("<details>")
-    lines.append('  <summary><strong>📂 Ver lista completa de repositórios</strong></summary>')
+    lines.append('  <summary><strong>📂 Ver lista completa de repositórios</strong> <kbd>' + str(len(repos)) + ' repositórios</kbd></summary>')
     lines.append("  <br>")
     lines.append("")
     lines.append("<div align=\"center\">")
     lines.append("")
-    lines.append(f"*Atualizado automaticamente em {dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d às %H:%M UTC')}*\n")
-    lines.append("| Repositório | Linguagem | ⭐ Stars | 📅 Último push |")
-    lines.append("|:---|:---:|:---:|:---:|")
+    lines.append(f"*📅 Atualizado em {dt.datetime.now(dt.timezone.utc).strftime('%d/%m/%Y às %H:%M UTC')}*")
+    lines.append("")
+    lines.append("<table>")
+    lines.append("<thead>")
+    lines.append("<tr>")
+    lines.append('<th align="left">📦 Repositório</th>')
+    lines.append('<th align="center">💻 Linguagem</th>')
+    lines.append('<th align="center">⭐ Stars</th>')
+    lines.append('<th align="center">📅 Último push</th>')
+    lines.append("</tr>")
+    lines.append("</thead>")
+    lines.append("<tbody>")
+    
     for r in repos:
+        repo_name = r.name_with_owner.split('/')[-1]
         lang = r.primary_language or "—"
         pushed = fmt_date(r.pushed_at)
-        # Add language badge color
-        lang_badge = f"![{lang}](https://img.shields.io/badge/-{lang.replace(' ', '%20')}-555?style=flat-square)" if lang != "—" else "—"
-        lines.append(f"| **[{r.name_with_owner.split('/')[-1]}]({r.url})** | {lang_badge} | {r.stars} | {pushed} |")
+        
+        # Language badge with color
+        lang_colors = {
+            "Python": "3776AB", "JavaScript": "F7DF1E", "TypeScript": "3178C6",
+            "Java": "007396", "C#": "239120", "C++": "00599C", "Go": "00ADD8",
+            "Rust": "000000", "Ruby": "CC342D", "PHP": "777BB4", "Swift": "FA7343",
+            "Kotlin": "7F52FF", "Dart": "0175C2", "HTML": "E34F26", "CSS": "1572B6"
+        }
+        color = lang_colors.get(lang, "555555")
+        lang_badge = f'<img src="https://img.shields.io/badge/-{lang.replace(" ", "%20")}-{color}?style=flat-square&logo={lang.lower()}&logoColor=white" alt="{lang}">' if lang != "—" else "—"
+        
+        lines.append("<tr>")
+        lines.append(f'<td align="left"><a href="{r.url}"><strong>{repo_name}</strong></a></td>')
+        lines.append(f'<td align="center">{lang_badge}</td>')
+        lines.append(f'<td align="center"><code>{r.stars}</code></td>')
+        lines.append(f'<td align="center"><code>{pushed}</code></td>')
+        lines.append("</tr>")
+    
+    lines.append("</tbody>")
+    lines.append("</table>")
     lines.append("")
     lines.append("</div>")
     lines.append("</details>")
