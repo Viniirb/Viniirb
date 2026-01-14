@@ -82,23 +82,35 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
 
 ## 💬 Contato
 
-<div align="center">
-  <p>
-    <a href="mailto:vinii.rbarbosa@gmail.com">
-      <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Gmail" height="45"/>
-    </a>
-    <a href="mailto:viniirb@pm.me">
-      <img src="https://img.shields.io/badge/ProtonMail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=6D4AFF" alt="ProtonMail" height="45"/>
-    </a>
-    <a href="https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" height="45"/>
-    </a>
-    <a href="https://myportifolio-vinicius.vercel.app/">
-      <img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfólio" height="45"/>
-    </a>
-  </p>
+<div align="center" style="text-decoration: none;">
+  <table border="0">
+    <tr>
+      <td align="center" style="border: none;">
+        <a href="mailto:vinii.rbarbosa@gmail.com">
+          <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" alt="Gmail" height="60"/>
+        </a>
+      </td>
+      <td align="center" style="border: none;">
+        <a href="mailto:viniirb@pm.me">
+          <img src="https://img.shields.io/badge/ProtonMail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white&labelColor=6D4AFF" alt="ProtonMail" height="60"/>
+        </a>
+      </td>
+      <td align="center" style="border: none;">
+        <a href="https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/">
+          <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" height="60"/>
+        </a>
+      </td>
+      <td align="center" style="border: none;">
+        <a href="https://myportifolio-vinicius.vercel.app/">
+          <img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=000000" alt="Portfólio" height="60"/>
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
 
+<br>
+
 <div align="center">
-  <sub>✨ Escolha seu canal preferido de contato ✨</sub>
+  <h3>✨ Escolha seu canal preferido de contato ✨</h3>
 </div>
