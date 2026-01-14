@@ -561,6 +561,10 @@ def main() -> None:
     commit_stats = fetch_commit_contributions_by_repo(token, username=username, days=days)
     print(f"✓ Found {len(commit_stats)} repositories with commits")
     
+    print("\n📂 Fetching all repositories...")
+    repos = fetch_all_repositories(token, username=username)
+    print(f"✓ Found {len(repos)} public repositories")
+    
     print("\n🎨 Generating combined repos SVG...")
     render_combined_repos_svg(
         username=username,
@@ -569,10 +573,6 @@ def main() -> None:
         out_path=OUT_DIR / "repos-overview.svg",
     )
     print(f"✓ Created: {OUT_DIR / 'repos-overview.svg'}")
-
-    print("\n📂 Fetching all repositories...")
-    repos = fetch_all_repositories(token, username=username)
-    print(f"✓ Found {len(repos)} public repositories")
     
     print("\n📝 Generating repositories.md...")
     render_repos_markdown(username=username, repos=repos, out_path=OUT_DIR / "repositories.md")
