@@ -326,52 +326,47 @@ def update_readme_repo_section(username: str, repos: list[RepoInfo]) -> None:
         except Exception:
             return iso
 
-    # Render as visually appealing cards instead of a plain table
+    # Render as beautiful visual cards
     lines: list[str] = []
     lines.append(start_marker)
     lines.append("<details>")
-    lines.append('  <summary><strong>📂 Ver lista completa de repositórios</strong> <kbd>' + str(len(repos)) + ' repositórios</kbd></summary>')
+    lines.append(f'  <summary><strong>📂 Ver todos os {len(repos)} repositórios</strong></summary>')
     lines.append("  <br>")
     lines.append("")
-    lines.append("<div align=\"center\">")
-    lines.append("")
-    lines.append(f"*📅 Atualizado em {dt.datetime.now(dt.timezone.utc).strftime('%d/%m/%Y às %H:%M UTC')}*")
-    lines.append("")
-    lines.append("<table>")
-    lines.append("<thead>")
-    lines.append("<tr>")
-    lines.append('<th align="left">📦 Repositório</th>')
-    lines.append('<th align="center">💻 Linguagem</th>')
-    lines.append('<th align="center">⭐ Stars</th>')
-    lines.append('<th align="center">📅 Último push</th>')
-    lines.append("</tr>")
-    lines.append("</thead>")
-    lines.append("<tbody>")
     
-    for r in repos:
+    # Add custom CSS for cards
+    lines.append("<style>")
+    lines.append(".repo-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; margin: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }")
+    lines.append(".repo-card:hover { transform: translateY(-5px); box-shadow: 0 8px 12px rgba(0,0,0,0.2); }")
+    lines.append(".repo-name { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 10px; }")
+    lines.append(".repo-stats { display: flex; gap: 15px; margin-top: 10px; }")
+    lines.append(".stat { background: rgba(255,255,255,0.2); padding: 5px 12px; border-radius: 20px; font-size: 13px; color: #fff; }")
+    lines.append("</style>")
+    lines.append("")
+    
+    lines.append(f"<p align='center'><em>📅 Atualizado em {dt.datetime.now(dt.timezone.utc).strftime('%d/%m/%Y às %H:%M UTC')}</em></p>")
+    lines.append("")
+    lines.append('<div align="center">')
+    lines.append("")
+    
+    # Generate repo cards (limit to 10 for readability)
+    for i, r in enumerate(repos[:10]):
         repo_name = r.name_with_owner.split('/')[-1]
-        lang = r.primary_language or "—"
+        lang = r.primary_language or "Other"
         pushed = fmt_date(r.pushed_at)
         
-        # Language badge with color
-        lang_colors = {
-            "Python": "3776AB", "JavaScript": "F7DF1E", "TypeScript": "3178C6",
-            "Java": "007396", "C#": "239120", "C++": "00599C", "Go": "00ADD8",
-            "Rust": "000000", "Ruby": "CC342D", "PHP": "777BB4", "Swift": "FA7343",
-            "Kotlin": "7F52FF", "Dart": "0175C2", "HTML": "E34F26", "CSS": "1572B6"
-        }
-        color = lang_colors.get(lang, "555555")
-        lang_badge = f'<img src="https://img.shields.io/badge/-{lang.replace(" ", "%20")}-{color}?style=flat-square&logo={lang.lower()}&logoColor=white" alt="{lang}">' if lang != "—" else "—"
+        # Card with image header
+        lines.append(f'<a href="{r.url}">')
+        lines.append(f'  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo={repo_name}&theme=radical&hide_border=true" alt="{repo_name}" />')
+        lines.append('</a>')
         
-        lines.append("<tr>")
-        lines.append(f'<td align="left"><a href="{r.url}"><strong>{repo_name}</strong></a></td>')
-        lines.append(f'<td align="center">{lang_badge}</td>')
-        lines.append(f'<td align="center"><code>{r.stars}</code></td>')
-        lines.append(f'<td align="center"><code>{pushed}</code></td>')
-        lines.append("</tr>")
+        if (i + 1) % 2 == 0:  # Line break after every 2 cards
+            lines.append("<br>")
     
-    lines.append("</tbody>")
-    lines.append("</table>")
+    if len(repos) > 10:
+        lines.append("")
+        lines.append(f"<p><em>... e mais {len(repos) - 10} repositórios</em></p>")
+    
     lines.append("")
     lines.append("</div>")
     lines.append("</details>")
