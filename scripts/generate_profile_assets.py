@@ -212,12 +212,13 @@ def render_commits_svg(
 
     height = padding * 2 + title_h + row_h * len(rows) + 10
 
-    bg = "#0b1020"
-    card = "#111827"
-    text = "#e5e7eb"
-    muted = "#9ca3af"
+    bg = "#0d1117"
+    card = "#161b22"
+    text = "#c9d1d9"
+    muted = "#8b949e"
     bar = "#8A2BE2"
-    bar_bg = "#24304a"
+    bar_secondary = "#a855f7"
+    bar_bg = "#21262d"
 
     def scale(v: int) -> int:
         bar_w_max = 420
@@ -225,12 +226,21 @@ def render_commits_svg(
 
     parts: list[str] = []
     parts.append(f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img">')
+    
+    # Add gradient definitions
+    parts.append("<defs>")
+    parts.append(f'<linearGradient id="barGradient" x1="0%" y1="0%" x2="100%" y2="0%">')
+    parts.append(f'  <stop offset="0%" style="stop-color:{bar};stop-opacity:1" />')
+    parts.append(f'  <stop offset="100%" style="stop-color:{bar_secondary};stop-opacity:1" />')
+    parts.append('</linearGradient>')
+    parts.append("</defs>")
+    
     parts.append("<style>")
     parts.append(
         ".title{font:700 18px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}"
         ".sub{font:500 12px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}"
         ".label{font:600 12px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}"
-        ".count{font:600 12px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}"
+        ".count{font:700 13px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}"
     )
     parts.append("</style>")
 
@@ -254,7 +264,7 @@ def render_commits_svg(
         bar_x = padding + 320
         bar_y = y - 10
         parts.append(f'<rect x="{bar_x}" y="{bar_y}" width="420" height="{bar_h}" rx="5" fill="{bar_bg}"/>')
-        parts.append(f'<rect x="{bar_x}" y="{bar_y}" width="{scale(r.commit_contributions)}" height="{bar_h}" rx="5" fill="{bar}"/>')
+        parts.append(f'<rect x="{bar_x}" y="{bar_y}" width="{scale(r.commit_contributions)}" height="{bar_h}" rx="5" fill="url(#barGradient)"/>')
 
         parts.append(
             f'<text x="{bar_x + 430}" y="{y}" class="count" fill="{muted}">{r.commit_contributions}</text>'
@@ -320,16 +330,22 @@ def update_readme_repo_section(username: str, repos: list[RepoInfo]) -> None:
     lines: list[str] = []
     lines.append(start_marker)
     lines.append("<details>")
-    lines.append("  <summary>Ver lista completa de repositórios</summary>")
+    lines.append('  <summary><strong>📂 Ver lista completa de repositórios</strong></summary>')
     lines.append("  <br>")
     lines.append("")
-    lines.append(f"Atualizado automaticamente em {dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}.\n")
-    lines.append("| Repositório | Linguagem | Stars | Último push |")
-    lines.append("|---|---:|---:|---:|")
+    lines.append("<div align=\"center\">")
+    lines.append("")
+    lines.append(f"*Atualizado automaticamente em {dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d às %H:%M UTC')}*\n")
+    lines.append("| Repositório | Linguagem | ⭐ Stars | 📅 Último push |")
+    lines.append("|:---|:---:|:---:|:---:|")
     for r in repos:
         lang = r.primary_language or "—"
         pushed = fmt_date(r.pushed_at)
-        lines.append(f"| [{r.name_with_owner}]({r.url}) | {lang} | {r.stars} | {pushed} |")
+        # Add language badge color
+        lang_badge = f"![{lang}](https://img.shields.io/badge/-{lang.replace(' ', '%20')}-555?style=flat-square)" if lang != "—" else "—"
+        lines.append(f"| **[{r.name_with_owner.split('/')[-1]}]({r.url})** | {lang_badge} | {r.stars} | {pushed} |")
+    lines.append("")
+    lines.append("</div>")
     lines.append("</details>")
     lines.append(end_marker)
 

@@ -58,7 +58,11 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
 ## Repositórios
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Viniirb/Viniirb/main/generated/repo-commits.svg" alt="Commits por repositório" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Viniirb/Viniirb/main/generated/repo-commits.svg?sanitize=true">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Viniirb/Viniirb/main/generated/repo-commits.svg?sanitize=true">
+    <img src="https://raw.githubusercontent.com/Viniirb/Viniirb/main/generated/repo-commits.svg?sanitize=true" alt="Commits por repositório" width="100%" />
+  </picture>
 </div>
 
 <!-- REPOS-LIST:START -->
