@@ -67,23 +67,64 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
 
 
 
+
 <!-- REPOS-LIST:START -->
 <details>
-  <summary><strong>📂 Ver lista completa de repositórios</strong></summary>
+  <summary><strong>📂 Ver lista completa de repositórios</strong> <kbd>6 repositórios</kbd></summary>
   <br>
 
 <div align="center">
 
-*Atualizado automaticamente em 2026-01-14 às 19:18 UTC*
+*📅 Atualizado em 14/01/2026 às 19:20 UTC*
 
-| Repositório | Linguagem | ⭐ Stars | 📅 Último push |
-|:---|:---:|:---:|:---:|
-| **[Viniirb](https://github.com/Viniirb/Viniirb)** | ![Python](https://img.shields.io/badge/-Python-555?style=flat-square) | 1 | 2026-01-14 |
-| **[neural-networks-from-scratch](https://github.com/Viniirb/neural-networks-from-scratch)** | ![Python](https://img.shields.io/badge/-Python-555?style=flat-square) | 0 | 2026-01-14 |
-| **[portifolio](https://github.com/Viniirb/portifolio)** | ![TypeScript](https://img.shields.io/badge/-TypeScript-555?style=flat-square) | 0 | 2026-01-07 |
-| **[agent_database](https://github.com/Viniirb/agent_database)** | ![Python](https://img.shields.io/badge/-Python-555?style=flat-square) | 0 | 2025-12-04 |
-| **[Bootcamp](https://github.com/Viniirb/Bootcamp)** | ![Python](https://img.shields.io/badge/-Python-555?style=flat-square) | 0 | 2025-12-01 |
-| **[NLW-Expert---Rocketseat](https://github.com/Viniirb/NLW-Expert---Rocketseat)** | ![Python](https://img.shields.io/badge/-Python-555?style=flat-square) | 0 | 2024-02-08 |
+<table>
+<thead>
+<tr>
+<th align="left">📦 Repositório</th>
+<th align="center">💻 Linguagem</th>
+<th align="center">⭐ Stars</th>
+<th align="center">📅 Último push</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><a href="https://github.com/Viniirb/Viniirb"><strong>Viniirb</strong></a></td>
+<td align="center"><img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></td>
+<td align="center"><code>1</code></td>
+<td align="center"><code>2026-01-14</code></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Viniirb/neural-networks-from-scratch"><strong>neural-networks-from-scratch</strong></a></td>
+<td align="center"><img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></td>
+<td align="center"><code>0</code></td>
+<td align="center"><code>2026-01-14</code></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Viniirb/portifolio"><strong>portifolio</strong></a></td>
+<td align="center"><img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"></td>
+<td align="center"><code>0</code></td>
+<td align="center"><code>2026-01-07</code></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Viniirb/agent_database"><strong>agent_database</strong></a></td>
+<td align="center"><img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></td>
+<td align="center"><code>0</code></td>
+<td align="center"><code>2025-12-04</code></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Viniirb/Bootcamp"><strong>Bootcamp</strong></a></td>
+<td align="center"><img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></td>
+<td align="center"><code>0</code></td>
+<td align="center"><code>2025-12-01</code></td>
+</tr>
+<tr>
+<td align="left"><a href="https://github.com/Viniirb/NLW-Expert---Rocketseat"><strong>NLW-Expert---Rocketseat</strong></a></td>
+<td align="center"><img src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"></td>
+<td align="center"><code>0</code></td>
+<td align="center"><code>2024-02-08</code></td>
+</tr>
+</tbody>
+</table>
 
 </div>
 </details>
