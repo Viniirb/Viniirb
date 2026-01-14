@@ -2,30 +2,34 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # Roda a cada 12 horas
+    - cron: "0 */12 * * *" # Every 12 hours
   workflow_dispatch:
+  push:
+    branches: ["main", "master"]
 
-# Permissão necessária para evitar o erro 403
 permissions:
   contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: Platane/snk@v3
+      - name: Generate snake
+        uses: Platane/snk@v3
         with:
-          # Nome de usuário do GitHub
           github_user_name: Viniirb
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
 
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v4
         with:
-          # Define o branch de saída como 'output' para não sobrescrever seu README na main
           target_branch: output
           build_dir: dist
         env:

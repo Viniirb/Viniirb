@@ -1,7 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140" role="img">
-  <rect x="0" y="0" width="900" height="140" rx="14" fill="#0b1020"/>
-  <rect x="12" y="12" width="876" height="116" rx="12" fill="#111827"/>
-  <text x="24" y="48" fill="#e5e7eb" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="18" font-weight="700">Commits por repositório</text>
-  <text x="24" y="74" fill="#9ca3af" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="12" font-weight="600">Ainda não gerado. Execute o workflow “Generate Profile Assets” em Actions.</text>
-  <text x="24" y="98" fill="#9ca3af" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="12" font-weight="600">Depois do primeiro run, este card vira um gráfico com barras por repo.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img">
+  <style>
+    .title{font:700 18px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}
+    .text{font:500 14px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}
+  </style>
+  <rect x="0" y="0" width="900" height="180" rx="14" fill="#0b1020"/>
+  <rect x="12" y="12" width="876" height="156" rx="12" fill="#111827"/>
+  <text x="24" y="60" class="title" fill="#e5e7eb">Commits por repositório — últimos 12 meses</text>
+  <text x="24" y="90" class="text" fill="#9ca3af">⏳ Aguardando primeira execução do GitHub Actions...</text>
+  <text x="24" y="115" class="text" fill="#6b7280">Vá em Actions → "Generate Profile Assets" → Run workflow</text>
+  <text x="24" y="140" class="text" fill="#6b7280">Após a execução, este card mostrará barras com commits por repositório.</text>
 </svg>

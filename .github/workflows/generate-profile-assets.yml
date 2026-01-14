@@ -5,10 +5,10 @@ on:
   push:
     branches: ["main", "master"]
     paths:
-      - "scripts/**"
+      - "scripts/generate_profile_assets.py"
       - ".github/workflows/generate-profile-assets.yml"
   schedule:
-    - cron: "23 3 * * *" # daily
+    - cron: "0 3 * * *" # daily at 3 AM UTC
 
 permissions:
   contents: write
@@ -43,6 +43,7 @@ jobs:
       - name: Commit generated assets
         uses: EndBug/add-and-commit@v9
         with:
-          add: "generated Readme.md README.md"
-          message: "chore: update profile assets"
+          add: "generated/*.* Readme.md README.md"
+          message: "chore: update profile assets [skip ci]"
           default_author: github_actions
+          push: true

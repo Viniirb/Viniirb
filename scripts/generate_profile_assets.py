@@ -186,6 +186,28 @@ def render_commits_svg(
     bar_h = 10
 
     rows = stats[:max_rows]
+    
+    # If no stats, render a placeholder card
+    if not rows:
+        height = 180
+        bg = "#0b1020"
+        card = "#111827"
+        text = "#e5e7eb"
+        muted = "#9ca3af"
+        
+        parts = [
+            f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img">',
+            f'<rect x="0" y="0" width="{width}" height="{height}" rx="14" fill="{bg}"/>',
+            f'<rect x="12" y="12" width="{width-24}" height="{height-24}" rx="12" fill="{card}"/>',
+            f'<text x="{padding}" y="60" fill="{text}" font-family="ui-sans-serif,system-ui" font-size="18" font-weight="700">Commits por repositório — {_escape_xml(period_label)}</text>',
+            f'<text x="{padding}" y="90" fill="{muted}" font-family="ui-sans-serif,system-ui" font-size="14">Nenhum commit encontrado no período selecionado.</text>',
+            f'<text x="{padding}" y="120" fill="{muted}" font-family="ui-sans-serif,system-ui" font-size="13">Isso pode acontecer se este for seu primeiro run ou se não houver atividade recente.</text>',
+            "</svg>"
+        ]
+        out_path.parent.mkdir(parents=True, exist_ok=True)
+        out_path.write_text("\n".join(parts), encoding="utf-8")
+        return
+    
     max_value = max((r.commit_contributions for r in rows), default=1)
 
     height = padding * 2 + title_h + row_h * len(rows) + 10
@@ -316,27 +338,47 @@ def update_readme_repo_section(username: str, repos: list[RepoInfo]) -> None:
 
 
 def main() -> None:
+    print("🚀 Starting profile asset generation...")
+    
     token = _require_env("GITHUB_TOKEN")
     username = os.getenv("GITHUB_USERNAME") or os.getenv("GITHUB_REPOSITORY_OWNER")
     if not username:
         raise RuntimeError("Missing GITHUB_USERNAME or GITHUB_REPOSITORY_OWNER")
+    
+    print(f"✓ Username: {username}")
 
     days = int(os.getenv("PERIOD_DAYS", "365"))
     period_label = os.getenv("PERIOD_LABEL") or "últimos 12 meses"
+    print(f"✓ Period: {days} days ({period_label})")
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
+    print("\n📊 Fetching commit statistics...")
     commit_stats = fetch_commit_contributions_by_repo(token, username=username, days=days)
+    print(f"✓ Found {len(commit_stats)} repositories with commits")
+    
+    print("\n🎨 Generating commits SVG...")
     render_commits_svg(
         username=username,
         period_label=period_label,
         stats=commit_stats,
         out_path=OUT_DIR / "repo-commits.svg",
     )
+    print(f"✓ Created: {OUT_DIR / 'repo-commits.svg'}")
 
+    print("\n📂 Fetching all repositories...")
     repos = fetch_all_repositories(token, username=username)
+    print(f"✓ Found {len(repos)} public repositories")
+    
+    print("\n📝 Generating repositories.md...")
     render_repos_markdown(username=username, repos=repos, out_path=OUT_DIR / "repositories.md")
+    print(f"✓ Created: {OUT_DIR / 'repositories.md'}")
+    
+    print("\n📄 Updating README.md with repo list...")
     update_readme_repo_section(username=username, repos=repos)
+    print("✓ README updated successfully")
+    
+    print("\n✅ All assets generated successfully!")
 
 
 if __name__ == "__main__":
