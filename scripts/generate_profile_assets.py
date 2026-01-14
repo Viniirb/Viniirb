@@ -344,7 +344,7 @@ def update_readme_repo_section(username: str, repos: list[RepoInfo]) -> None:
         except Exception:
             return iso
 
-    # Render as beautiful visual cards - ALWAYS VISIBLE (no collapsible)
+    # Render as beautiful custom HTML cards that always work
     lines: list[str] = []
     lines.append(start_marker)
     lines.append("")
@@ -353,23 +353,40 @@ def update_readme_repo_section(username: str, repos: list[RepoInfo]) -> None:
     lines.append('<div align="center">')
     lines.append("")
     
-    # Generate repo cards (limit to 10 for readability)
-    for i, r in enumerate(repos[:10]):
+    # Generate custom repo cards (limit to 8 for clean layout)
+    for i, r in enumerate(repos[:8]):
         repo_name = r.name_with_owner.split('/')[-1]
         lang = r.primary_language or "Other"
         pushed = fmt_date(r.pushed_at)
         
-        # Card with image header
-        lines.append(f'<a href="{r.url}">')
-        lines.append(f'  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo={repo_name}&theme=radical&hide_border=true" alt="{repo_name}" />')
+        # Language colors
+        lang_colors = {
+            "Python": "#3776AB", "JavaScript": "#F7DF1E", "TypeScript": "#3178C6",
+            "Java": "#007396", "C#": "#239120", "C++": "#00599C", "Go": "#00ADD8",
+            "Rust": "#000000", "Ruby": "#CC342D", "PHP": "#777BB4", "Swift": "#FA7343",
+            "Kotlin": "#7F52FF", "Dart": "#0175C2", "HTML": "#E34F26", "CSS": "#1572B6"
+        }
+        color = lang_colors.get(lang, "#8A2BE2")
+        
+        # Create beautiful card HTML
+        lines.append('<a href="{}" style="text-decoration: none; display: inline-block; margin: 8px;">'.format(r.url))
+        lines.append('  <div style="width: 400px; height: 120px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; box-shadow: 0 4px 6px rgba(0,0,0,0.3); position: relative; overflow: hidden;">')
+        lines.append('    <div style="position: absolute; top: 0; right: 0; width: 100px; height: 100px; background: rgba(255,255,255,0.1); border-radius: 0 12px 0 100px;"></div>')
+        lines.append('    <h3 style="color: #fff; margin: 0 0 8px 0; font-size: 18px; font-weight: 700;">📦 {}</h3>'.format(repo_name))
+        lines.append('    <div style="display: flex; gap: 12px; align-items: center; margin-top: 12px;">')
+        lines.append('      <span style="background: rgba(255,255,255,0.25); padding: 4px 10px; border-radius: 12px; font-size: 12px; color: #fff; font-weight: 600;">{}</span>'.format(lang))
+        lines.append('      <span style="color: rgba(255,255,255,0.9); font-size: 13px;">⭐ {}</span>'.format(r.stars))
+        lines.append('      <span style="color: rgba(255,255,255,0.75); font-size: 12px; margin-left: auto;">📅 {}</span>'.format(pushed))
+        lines.append('    </div>')
+        lines.append('  </div>')
         lines.append('</a>')
         
         if (i + 1) % 2 == 0:  # Line break after every 2 cards
             lines.append("<br>")
     
-    if len(repos) > 10:
+    if len(repos) > 8:
         lines.append("")
-        lines.append(f"<p><em>... e mais {len(repos) - 10} repositórios</em></p>")
+        lines.append(f"<p style='color: #8b949e; font-size: 14px;'><em>... e mais {len(repos) - 8} repositórios no perfil</em></p>")
     
     lines.append("")
     lines.append("</div>")
