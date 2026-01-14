@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="140" viewBox="0 0 900 140" role="img">
+  <rect x="0" y="0" width="900" height="140" rx="14" fill="#0b1020"/>
+  <rect x="12" y="12" width="876" height="116" rx="12" fill="#111827"/>
+  <text x="24" y="48" fill="#e5e7eb" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="18" font-weight="700">Commits por repositório</text>
+  <text x="24" y="74" fill="#9ca3af" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="12" font-weight="600">Ainda não gerado. Execute o workflow “Generate Profile Assets” em Actions.</text>
+  <text x="24" y="98" fill="#9ca3af" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial" font-size="12" font-weight="600">Depois do primeiro run, este card vira um gráfico com barras por repo.</text>
+</svg>

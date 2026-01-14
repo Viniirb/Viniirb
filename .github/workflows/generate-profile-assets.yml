@@ -2,6 +2,11 @@ name: Generate Profile Assets
 
 on:
   workflow_dispatch:
+  push:
+    branches: ["main", "master"]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/generate-profile-assets.yml"
   schedule:
     - cron: "23 3 * * *" # daily
 

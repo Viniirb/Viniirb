@@ -16,7 +16,7 @@ jobs:
       - name: 1. Linguagens
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           filename: languages.svg
           user: Viniirb
           base: "" # Sem cabeçalho
@@ -40,7 +40,7 @@ jobs:
       - name: 2. Hobbies (Steam + Spotify)
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
           filename: hobbies.svg
           user: Viniirb
           base: "" # Sem cabeçalho
