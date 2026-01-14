@@ -163,6 +163,8 @@ def fetch_all_repositories(token: str, username: str) -> list[RepoInfo]:
                 history = target.get("history") or {}
                 total_commits = int(history.get("totalCount") or 0)
             
+            print(f"  → {name}: {total_commits} commits")
+            
             repos.append(
                 RepoInfo(
                     name_with_owner=name,
@@ -258,8 +260,8 @@ def render_combined_repos_svg(
     """Generate a beautiful combined SVG showing all repos with commits, stars, and dates"""
     width = 900
     padding = 24
-    row_h = 50
-    title_h = 50
+    row_h = 55
+    title_h = 55
     
     # Filter out the profile repo itself and use total_commits from RepoInfo
     filtered = []
@@ -300,7 +302,7 @@ def render_combined_repos_svg(
     bar_secondary = "#a855f7"
     bar_bg = "#21262d"
     
-    def scale_bar(v: int, max_width: int = 300) -> int:
+    def scale_bar(v: int, max_width: int = 280) -> int:
         if max_commits == 0:
             return 0
         return int((v / max_commits) * max_width)
@@ -322,10 +324,10 @@ def render_combined_repos_svg(
         '</linearGradient>',
         "</defs>",
         "<style>",
-        ".title{font:700 18px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}",
-        ".sub{font:500 12px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}",
-        ".label{font:600 13px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}",
-        ".stat{font:600 12px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}",
+        ".title{font:700 20px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}",
+        ".sub{font:500 13px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}",
+        ".repo-name{font:700 16px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}",
+        ".stat{font:600 13px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}",
         "</style>",
         f'<rect x="0" y="0" width="{width}" height="{height}" rx="14" fill="{bg}"/>',
         f'<rect x="12" y="12" width="{width-24}" height="{height-24}" rx="12" fill="{card}"/>',
@@ -333,30 +335,29 @@ def render_combined_repos_svg(
     
     # Title
     title = "Repositórios — Atividade e Stats"
-    subtitle = f"@{username} • {len(filtered)} repos ativos"
-    parts.append(f'<text x="{padding}" y="{padding + 18}" class="title" fill="{text}">{_escape_xml(title)}</text>')
-    parts.append(f'<text x="{padding}" y="{padding + 38}" class="sub" fill="{muted}">{_escape_xml(subtitle)}</text>')
+    subtitle = f"@{username} • {len(filtered)} repos com total de {sum(c for _, c in filtered)} commits"
+    parts.append(f'<text x="{padding}" y="{padding + 20}" class="title" fill="{text}">{_escape_xml(title)}</text>')
+    parts.append(f'<text x="{padding}" y="{padding + 42}" class="sub" fill="{muted}">{_escape_xml(subtitle)}</text>')
     
-    start_y = padding + title_h + 10
+    start_y = padding + title_h + 15
     
     for i, (repo, commits) in enumerate(filtered):
         y = start_y + i * row_h
         repo_name = repo.name_with_owner.split('/')[-1]
-        if len(repo_name) > 28:
-            repo_name = repo_name[:25] + "..."
+        display_name = repo_name if len(repo_name) <= 30 else repo_name[:27] + "..."
         
         pushed = fmt_date(repo.pushed_at)
         
-        # Repo name (left)
-        parts.append(f'<text x="{padding}" y="{y + 8}" class="label" fill="{text}">{_escape_xml(repo_name)}</text>')
+        # Repo name (left) - MAIOR e mais DESTACADO
+        parts.append(f'<text x="{padding}" y="{y + 10}" class="repo-name" fill="{text}">📦 {_escape_xml(display_name)}</text>')
         
         # Commits bar (center)
-        bar_x = padding + 240
+        bar_x = padding + 260
         bar_y = y - 2
         bar_width = scale_bar(commits, 280)
-        parts.append(f'<rect x="{bar_x}" y="{bar_y}" width="280" height="12" rx="6" fill="{bar_bg}"/>')
+        parts.append(f'<rect x="{bar_x}" y="{bar_y}" width="280" height="14" rx="7" fill="{bar_bg}"/>')
         if bar_width > 0:
-            parts.append(f'<rect x="{bar_x}" y="{bar_y}" width="{bar_width}" height="12" rx="6" fill="url(#barGradient)"/>')
+            parts.append(f'<rect x="{bar_x}" y="{bar_y}" width="{bar_width}" height="14" rx="7" fill="url(#barGradient)"/>')
         
         # Stats (right side - below bar)
         stats_y = y + 28
@@ -384,35 +385,28 @@ def render_contact_card_svg(out_path: Path) -> None:
             "url": "mailto:vinii.rbarbosa@gmail.com",
             "icon": "M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z",
             "color": "#EA4335",
-            "x": 50
+            "x": 120
         },
         {
             "name": "ProtonMail",
             "url": "mailto:viniirb@proton.me",
             "icon": "M12 2L3 7v7c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V7l-9-5zm0 2.2L19 8v6c0 4.5-3.2 8.8-7 10-3.8-1.2-7-5.5-7-10V8l7-3.8z",
             "color": "#6D4AFF",
-            "x": 230
+            "x": 330
         },
         {
             "name": "LinkedIn",
             "url": "https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/",
             "icon": "M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z",
             "color": "#0A66C2",
-            "x": 410
-        },
-        {
-            "name": "GitHub",
-            "url": "https://github.com/Viniirb?tab=repositories",
-            "icon": "M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z",
-            "color": "#181717",
-            "x": 590
+            "x": 540
         },
         {
             "name": "Portfólio",
             "url": "https://myportifolio-vinicius.vercel.app/",
-            "icon": "M3 3h18v18H3V3m16 16V5H5v14h14m-4-4h2v2h-2v-2m-4 0h2v2h-2v-2m-4 0h2v2H7v-2m12-4h-2v2h2v-2m-4 0h-2v2h2v-2m-4 0H7v2h2v-2m8-4h-2v2h2V7m-4 0h-2v2h2V7m-4 0H7v2h2V7z",
-            "color": "#000000",
-            "x": 770
+            "icon": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z",
+            "color": "#FFFFFF",
+            "x": 750
         }
     ]
     
