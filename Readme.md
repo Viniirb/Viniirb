@@ -65,54 +65,8 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
   </picture>
 </div>
 
-<<<<<<< HEAD
-=======
-
-
-
-
 <!-- REPOS-LIST:START -->
->>>>>>> cb601062911d232f6724c2ce80e8e8e338535094
-<details>
-  <summary><strong>📂 Ver todos os 6 repositórios</strong></summary>
-  <br>
-
-<style>
-.repo-card { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; margin: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }
-.repo-card:hover { transform: translateY(-5px); box-shadow: 0 8px 12px rgba(0,0,0,0.2); }
-.repo-name { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 10px; }
-.repo-stats { display: flex; gap: 15px; margin-top: 10px; }
-.stat { background: rgba(255,255,255,0.2); padding: 5px 12px; border-radius: 20px; font-size: 13px; color: #fff; }
-</style>
-
-<p align='center'><em>📅 Atualizado em 14/01/2026 às 19:21 UTC</em></p>
-
-<div align="center">
-
-<a href="https://github.com/Viniirb/Viniirb">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=Viniirb&theme=radical&hide_border=true" alt="Viniirb" />
-</a>
-<a href="https://github.com/Viniirb/neural-networks-from-scratch">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=neural-networks-from-scratch&theme=radical&hide_border=true" alt="neural-networks-from-scratch" />
-</a>
-<br>
-<a href="https://github.com/Viniirb/portifolio">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=portifolio&theme=radical&hide_border=true" alt="portifolio" />
-</a>
-<a href="https://github.com/Viniirb/agent_database">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=agent_database&theme=radical&hide_border=true" alt="agent_database" />
-</a>
-<br>
-<a href="https://github.com/Viniirb/Bootcamp">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=Bootcamp&theme=radical&hide_border=true" alt="Bootcamp" />
-</a>
-<a href="https://github.com/Viniirb/NLW-Expert---Rocketseat">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Viniirb&repo=NLW-Expert---Rocketseat&theme=radical&hide_border=true" alt="NLW-Expert---Rocketseat" />
-</a>
-<br>
-
-</div>
-</details>
+<!-- REPOS-LIST:END -->
 
 ---
 
