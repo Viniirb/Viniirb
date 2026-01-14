@@ -50,7 +50,7 @@ jobs:
           ls -lah generated/
           echo ""
           echo "📊 Checking git diff:"
-          git diff --exit-code generated/ Readme.md README.md || echo "changed=true" >> $GITHUB_OUTPUT
+          git diff --exit-code generated/ Readme.md || echo "changed=true" >> $GITHUB_OUTPUT
           echo ""
           echo "📝 Git status:"
           git status --short
@@ -60,6 +60,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add generated/ Readme.md README.md
+          git add generated/ Readme.md
           git commit -m "chore: update profile assets [skip ci]"
           git push
