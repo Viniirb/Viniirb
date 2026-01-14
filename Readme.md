@@ -83,16 +83,16 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
 ## 💬 Contato
 
 <div align="center">
-  <a href="mailto:vinii.rbarbosa@gmail.com">
+  <a href="mailto:vinii.rbarbosa@gmail.com" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="mailto:viniirb@pm.me">
+  <a href="mailto:viniirb@pm.me" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/ProtonMail-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white" alt="ProtonMail"/>
   </a>
-  <a href="https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/">
+  <a href="https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="https://myportifolio-vinicius.vercel.app/">
+  <a href="https://myportifolio-vinicius.vercel.app/" style="text-decoration: none;">
     <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"/>
   </a>
 </div>
