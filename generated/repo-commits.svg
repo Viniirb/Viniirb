@@ -1,12 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180" role="img">
-  <style>
-    .title{font:700 18px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}
-    .text{font:500 14px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}
-  </style>
-  <rect x="0" y="0" width="900" height="180" rx="14" fill="#0b1020"/>
-  <rect x="12" y="12" width="876" height="156" rx="12" fill="#111827"/>
-  <text x="24" y="60" class="title" fill="#e5e7eb">Commits por repositório — últimos 12 meses</text>
-  <text x="24" y="90" class="text" fill="#9ca3af">⏳ Aguardando primeira execução do GitHub Actions...</text>
-  <text x="24" y="115" class="text" fill="#6b7280">Vá em Actions → "Generate Profile Assets" → Run workflow</text>
-  <text x="24" y="140" class="text" fill="#6b7280">Após a execução, este card mostrará barras com commits por repositório.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="184" viewBox="0 0 900 184" role="img">
+<style>
+.title{font:700 18px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}.sub{font:500 12px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}.label{font:600 12px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}.count{font:600 12px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}
+</style>
+<rect x="0" y="0" width="900" height="184" rx="14" fill="#0b1020"/>
+<rect x="12" y="12" width="876" height="160" rx="12" fill="#111827"/>
+<text x="24" y="42" class="title" fill="#e5e7eb">Commits por repositório — últimos 12 meses</text>
+<text x="24" y="62" class="sub" fill="#9ca3af">@Viniirb • Top 3 (por commits)</text>
+<text x="24" y="82" class="label" fill="#e5e7eb">Viniirb/Viniirb</text>
+<rect x="344" y="72" width="420" height="10" rx="5" fill="#24304a"/>
+<rect x="344" y="72" width="420" height="10" rx="5" fill="#8A2BE2"/>
+<text x="774" y="82" class="count" fill="#9ca3af">35</text>
+<text x="24" y="110" class="label" fill="#e5e7eb">Viniirb/portifolio</text>
+<rect x="344" y="100" width="420" height="10" rx="5" fill="#24304a"/>
+<rect x="344" y="100" width="36" height="10" rx="5" fill="#8A2BE2"/>
+<text x="774" y="110" class="count" fill="#9ca3af">3</text>
+<text x="24" y="138" class="label" fill="#e5e7eb">Viniirb/agent_database</text>
+<rect x="344" y="128" width="420" height="10" rx="5" fill="#24304a"/>
+<rect x="344" y="128" width="24" height="10" rx="5" fill="#8A2BE2"/>
+<text x="774" y="138" class="count" fill="#9ca3af">2</text>
 </svg>
