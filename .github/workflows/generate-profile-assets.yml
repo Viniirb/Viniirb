@@ -1,0 +1,43 @@
+name: Generate Profile Assets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 3 * * *" # daily
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install requests
+
+      - name: Generate SVG/MD
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          PERIOD_DAYS: "365"
+          PERIOD_LABEL: "últimos 12 meses"
+        run: |
+          python scripts/generate_profile_assets.py
+
+      - name: Commit generated assets
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: "generated Readme.md README.md"
+          message: "chore: update profile assets"
+          default_author: github_actions

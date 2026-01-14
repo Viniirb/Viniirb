@@ -1,58 +1,80 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=200&section=header&text=Vinicius%20Rolim%20Barbosa&fontSize=60&fontFamily=Dancing%20Script&animation=fadeIn&fontColor=FFFFFF" alt="Cabeçalho Animado"/>
-  
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8A2BE2&center=true&vCenter=true&width=600&lines=Full-Stack+Developer;Estudante+de+Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o;Neurodivergente+%F0%9F%A7%A0" alt="Bio Animada"/>
+  <img
+    src="https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=200&section=header&text=Vinicius%20Rolim%20Barbosa&fontSize=60&fontFamily=Dancing%20Script&animation=fadeIn&fontColor=FFFFFF"
+    alt="Cabeçalho"
+  />
+
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8A2BE2&center=true&vCenter=true&width=700&lines=Full-Stack+Developer;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+%7C+Joinville+-+SC;Construindo+produtos+com+qualidade+e+clareza"
+    alt="Bio"
+  />
+
+  <p>
+    <a href="https://myportifolio-vinicius.vercel.app/">Portfólio</a>
+    &middot;
+    <a href="https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/">LinkedIn</a>
+    &middot;
+    <a href="https://github.com/Viniirb?tab=repositories">Repositórios</a>
+    &middot;
+    <a href="mailto:vinii.rbarbosa@gmail.com">Email</a>
+  </p>
 </div>
 
 ---
 
-### 👨‍💻 Sobre Mim
+## Sobre mim
 
-Olá! 👋 Sou um desenvolvedor Full-Stack apaixonado por criar soluções inovadoras e eficientes. Atualmente, estou cursando Ciência da Computação em <strong>Joinville, SC</strong>, e busco constantemente expandir meu conhecimento em novas tecnologias.
+Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinville/SC. Gosto de construir experiências completas (do front ao back), com foco em organização, manutenibilidade e boa comunicação.
 
-Como autista e TDAH, transformo o hiperfoco e uma perspectiva única em superpoderes para resolver problemas complexos e entregar um trabalho de alta qualidade e atenção aos detalhes.
+- Último foco: React/Next.js, APIs, integrações e automações
+- Curto: TypeScript, arquitetura limpa, DX, performance e UI consistente
+- Neurodivergente (autista + TDAH): hiperfoco + atenção a detalhes como diferencial
 
 <details>
-  <summary>🇬🇧 Click to see the English version</summary>
+  <summary>English version</summary>
   <br>
   <p>
-    Hello! 👋 I'm a passionate Full-Stack Developer focused on creating innovative and efficient solutions. Currently, I'm pursuing a degree in Computer Science in <strong>Joinville, SC - Brazil</strong>, and I'm constantly seeking to expand my knowledge in new technologies.
+    I'm a Full-Stack Developer and Computer Science student in Joinville/SC (Brazil). I enjoy building end-to-end products with a focus on clarity, maintainability, and strong communication.
   </p>
-  <p>
-    As someone with Autism and ADHD, I turn hyperfocus and a unique perspective into superpowers for solving complex problems and delivering high-quality work with great attention to detail.
-  </p>
+  <ul>
+    <li>Current focus: React/Next.js, APIs, integrations, and automation</li>
+    <li>I like: TypeScript, clean architecture, DX, performance, and consistent UI</li>
+    <li>Neurodivergent (Autism + ADHD): hyperfocus and attention to detail as strengths</li>
+  </ul>
 </details>
 
-<br>
+---
 
-### 🛠️ Tecnologias
+## Tecnologias
+
 <div align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,angular,py,cs,graphql,git,docker,postman,linux,vscode" />
+    <img src="https://skillicons.dev/icons?i=js,ts,react,nextjs,angular,py,cs,graphql,git,docker,postman,linux,vscode" alt="Tech Stack" />
   </a>
 </div>
 
 ---
 
-### 📊 Estatísticas
+## Repositórios
+
 <div align="center">
-  <!-- CORRIGIDO: Usando caminho relativo -->
-  <img src="./languages.svg" alt="Top Langs" width="100%"/>
+  <img src="./generated/repo-commits.svg" alt="Commits por repositório" width="100%" />
 </div>
+
+<!-- REPOS-LIST:START -->
+<details>
+  <summary>Ver lista completa de repositórios</summary>
+  <br>
+
+  A lista completa será inserida automaticamente pelo GitHub Actions.
+</details>
+<!-- REPOS-LIST:END -->
 
 ---
 
-### 🎮 Hobbies & Música
-<div align="center">
-  <!-- CORRIGIDO: Usando caminho relativo -->
-  <img src="./hobbies.svg" alt="Hobbies" width="100%"/>
-</div>
+## Atividade recente
 
----
-
-### 🐍 Minha Atividade Recente
 <div align="center">
-  <!-- Essa imagem só aparecerá depois que o Action na aba "Actions" ficar verde ✅ -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Viniirb/Viniirb/output/snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Viniirb/Viniirb/output/snake.svg">
@@ -62,7 +84,8 @@ Como autista e TDAH, transformo o hiperfoco e uma perspectiva única em superpod
 
 ---
 
-### 🌐 Contato e Links
+## Contato
+
 <div align="center">
   <table border="0" cellspacing="5" cellpadding="5">
     <tr>
@@ -83,12 +106,12 @@ Como autista e TDAH, transformo o hiperfoco e uma perspectiva única em superpod
       </td>
       <td>
         <a href="https://github.com/Viniirb?tab=repositories">
-          <img src="https://img.shields.io/badge/Repositórios-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositórios"/>
+          <img src="https://img.shields.io/badge/Reposit%C3%B3rios-181717?style=for-the-badge&logo=github&logoColor=white" alt="Repositórios"/>
         </a>
       </td>
       <td>
         <a href="https://myportifolio-vinicius.vercel.app/">
-          <img src="https://img.shields.io/badge/Portfólio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"/>
+          <img src="https://img.shields.io/badge/Portf%C3%B3lio-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfólio"/>
         </a>
       </td>
     </tr>
