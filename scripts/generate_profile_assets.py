@@ -264,6 +264,8 @@ def render_commits_svg(
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text("\n".join(parts), encoding="utf-8")
+    print(f"  → Generated SVG with {len(rows)} repositories")
+    print(f"  → File size: {out_path.stat().st_size} bytes")
 
 
 def render_repos_markdown(username: str, repos: list[RepoInfo], out_path: Path) -> None:
