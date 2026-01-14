@@ -373,98 +373,6 @@ def render_combined_repos_svg(
     print(f"  → File size: {out_path.stat().st_size} bytes")
 
 
-def render_contact_card_svg(out_path: Path) -> None:
-    """Generate a beautiful interactive contact card SVG"""
-    
-    width = 900
-    height = 180
-    
-    contacts = [
-        {
-            "name": "Gmail",
-            "url": "mailto:vinii.rbarbosa@gmail.com",
-            "icon": "M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z",
-            "color": "#EA4335",
-            "x": 120
-        },
-        {
-            "name": "ProtonMail",
-            "url": "mailto:viniirb@proton.me",
-            "icon": "M12 2L3 7v7c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V7l-9-5zm0 2.2L19 8v6c0 4.5-3.2 8.8-7 10-3.8-1.2-7-5.5-7-10V8l7-3.8z",
-            "color": "#6D4AFF",
-            "x": 330
-        },
-        {
-            "name": "LinkedIn",
-            "url": "https://www.linkedin.com/in/vinicius-rolim-barbosa-15b066374/",
-            "icon": "M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z",
-            "color": "#0A66C2",
-            "x": 540
-        },
-        {
-            "name": "Portfólio",
-            "url": "https://myportifolio-vinicius.vercel.app/",
-            "icon": "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z",
-            "color": "#FFFFFF",
-            "x": 750
-        }
-    ]
-    
-    svg_parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img">',
-        '<defs>',
-        '<linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">',
-        '  <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.1" />',
-        '  <stop offset="100%" style="stop-color:#764ba2;stop-opacity:0.1" />',
-        '</linearGradient>',
-    ]
-    
-    for i, contact in enumerate(contacts):
-        svg_parts.extend([
-            f'<filter id="glow{i}">',
-            f'  <feGaussianBlur stdDeviation="2" result="coloredBlur"/>',
-            '  <feMerge>',
-            '    <feMergeNode in="coloredBlur"/>',
-            '    <feMergeNode in="SourceGraphic"/>',
-            '  </feMerge>',
-            '</filter>',
-        ])
-    
-    svg_parts.extend([
-        '</defs>',
-        '<style>',
-        '.contact-title { font: 600 11px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial; }',
-        '</style>',
-        f'<rect width="{width}" height="{height}" rx="16" fill="#0d1117"/>',
-        f'<rect x="8" y="8" width="{width-16}" height="{height-16}" rx="12" fill="#161b22"/>',
-        '<text x="450" y="35" text-anchor="middle" fill="#c9d1d9" font-family="ui-sans-serif,system-ui" font-size="20" font-weight="700">💬 Vamos conversar?</text>',
-        '<text x="450" y="55" text-anchor="middle" fill="#8b949e" font-family="ui-sans-serif,system-ui" font-size="12">Escolha seu canal preferido de contato</text>',
-    ])
-    
-    for i, contact in enumerate(contacts):
-        x = contact["x"]
-        y = 90
-        
-        svg_parts.extend([
-            f'<a href="{contact["url"]}" target="_blank">',
-            '<g>',
-            f'  <circle cx="{x}" cy="{y}" r="24" fill="#21262d" opacity="0.8"/>',
-            f'  <g transform="translate({x-12}, {y-12}) scale(1)">',
-            f'    <path d="{contact["icon"]}" fill="{contact["color"]}" opacity="0.9"/>',
-            '  </g>',
-            f'  <text x="{x}" y="{y + 42}" class="contact-title" text-anchor="middle" fill="#8b949e">{_escape_xml(contact["name"])}</text>',
-            '</g>',
-            '</a>',
-        ])
-    
-    svg_parts.append('</svg>')
-    
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text('\n'.join(svg_parts), encoding="utf-8")
-    print(f"  → Generated contact card")
-    print(f"  → File size: {out_path.stat().st_size} bytes")
-
-
 def render_commits_svg(
     username: str,
     period_label: str,
@@ -682,10 +590,7 @@ def main() -> None:
     )
     print(f"✓ Created: {OUT_DIR / 'repos-overview.svg'}")
     
-    print("\n� Generating contact card SVG...")
-    render_contact_card_svg(out_path=OUT_DIR / "contact-card.svg")
-    print(f"✓ Created: {OUT_DIR / 'contact-card.svg'}")
-    
+
     print("\n�📝 Generating repositories.md...")
     render_repos_markdown(username=username, repos=repos, out_path=OUT_DIR / "repositories.md")
     print(f"✓ Created: {OUT_DIR / 'repositories.md'}")
