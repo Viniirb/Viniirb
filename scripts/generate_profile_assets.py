@@ -356,6 +356,12 @@ def render_combined_repos_svg(
 
 
 def render_commits_svg(
+    username: str,
+    period_label: str,
+    stats: list[RepoCommitStat],
+    out_path: Path,
+    max_rows: int = 15,
+) -> None:
     width = 900
     padding = 24
     row_h = 28
