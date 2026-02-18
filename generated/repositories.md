@@ -1,10 +1,11 @@
 # Repositórios (Viniirb)
 
-Atualizado automaticamente por GitHub Actions em 2026-02-17 03:52 UTC.
+Atualizado automaticamente por GitHub Actions em 2026-02-18 03:53 UTC.
 
 | Repositório | Linguagem | Stars | Último push |
 |---|---:|---:|---:|
-| [Viniirb/Viniirb](https://github.com/Viniirb/Viniirb) | Python | 1 | 2026-02-17 |
+| [Viniirb/Viniirb](https://github.com/Viniirb/Viniirb) | Python | 1 | 2026-02-18 |
+| [Viniirb/formacao-csharp-rocketseat](https://github.com/Viniirb/formacao-csharp-rocketseat) | C# | 0 | 2026-02-17 |
 | [Viniirb/portifolio](https://github.com/Viniirb/portifolio) | TypeScript | 1 | 2026-02-13 |
 | [Viniirb/skills-introduction-to-github](https://github.com/Viniirb/skills-introduction-to-github) | — | 1 | 2026-02-04 |
 | [Viniirb/skills-communicate-using-markdown](https://github.com/Viniirb/skills-communicate-using-markdown) | — | 1 | 2026-02-04 |
