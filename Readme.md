@@ -12,15 +12,6 @@
 
 ---
 
-
-<div align="center">
-  <h2>Vinicius Rolim Barbosa</h2>
-  <b>Engenheiro de Software Sênior</b> <br/>
-  <a href="mailto:viinirb@pm.me">viinirb@pm.me</a> · <a href="https://www.linkedin.com/in/viniciusrolimbarbosa">LinkedIn</a> · <a href="https://www.viniciusrb.dev">viniciusrb.dev</a>
-</div>
-
----
-
 ## 🚀 Resumo Profissional
 
 Engenheiro de Software Sênior com <b>5 anos de experiência</b>, especializado em <b>.NET</b> e modernização de sistemas críticos. Lidero projetos de arquitetura (monólito → serviços), automações de alto impacto e integrações complexas com APIs e ERPs, sempre focando em resultado direto para operação e negócio.
