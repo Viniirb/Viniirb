@@ -5,7 +5,7 @@
   />
 
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8A2BE2&center=true&vCenter=true&width=700&lines=Full-Stack+Developer;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+%7C+Joinville+-+SC;Construindo+produtos+com+qualidade+e+clareza"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=8A2BE2&center=true&vCenter=true&width=700&lines=Senior+Software+Engineer;Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o+%7C+Joinville+-+SC;Construindo+produtos+com+qualidade+e+clareza"
     alt="Bio"
   />
 </div>
