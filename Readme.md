@@ -43,6 +43,7 @@ Engenheiro de Software Sênior com <b>5 anos de experiência</b>, especializado 
 
 ## 🎓 Certificações
 
+- <b>2026</b> Claude Code in Action e Claude 101 (Anthropic)
 - <b>2026</b> Redes Neurais, Deep Learning e engenharia de Prompt (Rocketseat)
 - <b>2025</b> Azure Data Factory (Udemy)
 - <b>2025</b> Microsoft Fabric (Udemy)
