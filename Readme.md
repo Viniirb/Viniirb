@@ -12,26 +12,72 @@
 
 ---
 
-## Sobre mim
 
-Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinville/SC. Gosto de construir experiências completas (do front ao back), com foco em organização, manutenibilidade e boa comunicação.
+<div align="center">
+  <h2>Vinicius Rolim Barbosa</h2>
+  <b>Engenheiro de Software Sênior</b> <br/>
+  <a href="mailto:viinirb@pm.me">viinirb@pm.me</a> · <a href="https://www.linkedin.com/in/viniciusrolimbarbosa">LinkedIn</a> · <a href="https://www.viniciusrb.dev">viniciusrb.dev</a>
+</div>
 
-- Último foco: React/Next.js, APIs, integrações e automações
-- Curto: TypeScript, arquitetura limpa, DX, performance e UI consistente
-- Neurodivergente (autista + TDAH): hiperfoco + atenção a detalhes como diferencial
+---
+
+## 🚀 Resumo Profissional
+
+Engenheiro de Software Sênior com <b>5 anos de experiência</b>, especializado em <b>.NET</b> e modernização de sistemas críticos. Lidero projetos de arquitetura (monólito → serviços), automações de alto impacto e integrações complexas com APIs e ERPs, sempre focando em resultado direto para operação e negócio.
+
+<b>Expertise comprovada em:</b> <br>
+<ul>
+  <li><b>DevOps e CI/CD</b> (Azure DevOps, Docker, Git, observabilidade)</li>
+  <li><b>IA aplicada</b> (RAG/Agentes em produção)</li>
+  <li>Orquestração de processos via <b>n8n</b> (entregas confiáveis e mensais)</li>
+</ul>
+
+---
+
+## 🛠️ Competências
 
 <details>
-  <summary>English version</summary>
-  <br>
-  <p>
-    I'm a Full-Stack Developer and Computer Science student in Joinville/SC (Brazil). I enjoy building end-to-end products with a focus on clarity, maintainability, and strong communication.
-  </p>
+  <summary><b>Ver competências técnicas</b></summary>
   <ul>
-    <li>Current focus: React/Next.js, APIs, integrations, and automation</li>
-    <li>I like: TypeScript, clean architecture, DX, performance, and consistent UI</li>
-    <li>Neurodivergent (Autism + ADHD): hyperfocus and attention to detail as strengths</li>
+    <li><b>Backend:</b> .NET · C# · ASP.NET Core · Entity Framework · Node.js · REST · GraphQL · Python</li>
+    <li><b>Frontend:</b> React · Next.js · TypeScript · Solid.js · Tailwind CSS</li>
+    <li><b>Mobile:</b> Ionic · .NET MAUI · Capacitor · React Native</li>
+    <li><b>Dados & Bancos:</b> SQL Server · PostgreSQL · Supabase · modelagem · otimização</li>
+    <li><b>Automação & Integrações:</b> n8n · webhooks · ERPs (Tiny, Benner) · rotinas de sincronização</li>
+    <li><b>DevOps & Plataforma:</b> Azure DevOps · Docker · Git · Linux · CI/CD · observabilidade</li>
   </ul>
 </details>
+
+---
+
+## 🎓 Certificações
+
+- <b>2026</b> Redes Neurais, Deep Learning e engenharia de Prompt (Rocketseat)
+- <b>2025</b> Azure Data Factory (Udemy)
+- <b>2025</b> Microsoft Fabric (Udemy)
+- <b>2025</b> Cibersegurança (Santander)
+- <b>2024</b> SEO para Devs (Rocketseat)
+
+---
+
+## 💼 Experiência Profissional
+
+<details>
+  <summary><b>Ver experiências</b></summary>
+  <ul>
+    <li><b>N Tecnologias – Coopercargo</b> (2025–Atual): Liderança técnica em ERP, migração de serviços .NET, automação com n8n, agentes de IA generativa, Supabase, SQL/NoSQL.</li>
+    <li><b>Blump LTDA</b> (2023): Full Stack (PJ), automação de pedidos com ERP Tiny, CI/CD no Azure DevOps, Vue.js, .NET, n8n.</li>
+    <li><b>EOS – Organização e Sistemas</b> (2023–2024): Web, otimização de relatórios SQL Server, apps offline-first com .NET MAUI, APIs para saneamento.</li>
+    <li><b>Inovati Tecnologia</b> (2021–2023): React, Next.js, GraphQL, modernização de sistemas legados .NET.</li>
+  </ul>
+</details>
+
+---
+
+## 🎓 Educação
+
+<b>Ciência da Computação</b> — Unisociesc, Joinville/SC (2025–2027, Previsão) <br>
+<b>Média:</b> 9,49
 
 ---
 
@@ -159,8 +205,7 @@ Sou desenvolvedor Full-Stack e estudante de Ciência da Computação em Joinvill
 
 <div align="center">
 
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:vinii.rbarbosa@gmail.com)
-[![ProtonMail](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:viniirb@pm.me)
+[![ProtonMail](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:contato@viniciusrb.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/viniciusrolimbarbosa/)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://www.viniciusrb.dev)
 
