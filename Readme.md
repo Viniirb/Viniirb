@@ -202,6 +202,6 @@ Engenheiro de Software Sênior com <b>5 anos de experiência</b>, especializado 
 
 </div>
 
-<p align="center">
+<p align="left">
   <em>✨ Escolha seu canal preferido de contato ✨</em>
 </p>
