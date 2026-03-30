@@ -194,7 +194,7 @@ Engenheiro de Software Sênior com <b>5 anos de experiência</b>, especializado 
 
 ## 💬 Contato
 
-<div align="center">
+<div align="left">
 
 [![ProtonMail](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:contato@viniciusrb.dev)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/viniciusrolimbarbosa/)
