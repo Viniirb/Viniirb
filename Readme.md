@@ -44,7 +44,7 @@ Engenheiro de Software Sênior com <b>5 anos de experiência</b>, especializado 
 ## 🎓 Certificações
 
 - <b>2026</b> Claude Code in Action e Claude 101 (Anthropic)
-- <b>2026</b> Redes Neurais, Deep Learning e engenharia de Prompt (Rocketseat)
+- <b>2026</b> Redes Neurais, Deep Learning e Engenharia de Prompt (Rocketseat)
 - <b>2025</b> Azure Data Factory (Udemy)
 - <b>2025</b> Microsoft Fabric (Udemy)
 - <b>2025</b> Cibersegurança (Santander)
@@ -57,7 +57,8 @@ Engenheiro de Software Sênior com <b>5 anos de experiência</b>, especializado 
 <details>
   <summary><b>Ver experiências</b></summary>
   <ul>
-    <li><b>N Tecnologias – Coopercargo</b> (2025–Atual): Liderança técnica em ERP, migração de serviços .NET, automação com n8n, agentes de IA generativa, Supabase, SQL/NoSQL.</li>
+    <li><b>iBR Tech</b> (202–Atual): Desenvolvimento, modernização e otimização de projeto monorepo em .NET e Angular 16, automações usando Claude Code e Codex, Gerenciamento e otimização de banco de dados PostgreSQL.</li>
+    <li><b>N Tecnologias – Coopercargo</b> (2025–2026): Liderança técnica em ERP, migração de serviços .NET, automação com n8n, agentes de IA generativa, Supabase, SQL/NoSQL.</li>
     <li><b>Blump LTDA</b> (2023): Full Stack (PJ), automação de pedidos com ERP Tiny, CI/CD no Azure DevOps, Vue.js, .NET, n8n.</li>
     <li><b>EOS – Organização e Sistemas</b> (2023–2024): Web, otimização de relatórios SQL Server, apps offline-first com .NET MAUI, APIs para saneamento.</li>
     <li><b>Inovati Tecnologia</b> (2021–2023): React, Next.js, GraphQL, modernização de sistemas legados .NET.</li>
@@ -68,8 +69,8 @@ Engenheiro de Software Sênior com <b>5 anos de experiência</b>, especializado 
 
 ## 🎓 Educação
 
-<b>Ciência da Computação</b> — Unisociesc, Joinville/SC (2025–2027, Previsão) <br>
-<b>Média:</b> 9,49
+<b>Ciência da Computação</b> — Unisociesc, Joinville/SC (2025–2026, Previsão) <br>
+<b>Média:</b> 9,19
 
 ---
 
