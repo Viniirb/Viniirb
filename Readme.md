@@ -14,7 +14,7 @@
 
 ## 🚀 Resumo Profissional
 
-Engenheiro de Software Sênior com <b>mais de 5 anos de experiência</b> em produtos digitais e sistemas críticos. Atuo de ponta a ponta com <b>.NET</b>, arquitetura distribuída, integrações, dados e IA aplicada. Na iBR, trabalho na modernização do ERP, no módulo Financeiro e em análise de risco com machine learning, conectando decisões técnicas a confiabilidade operacional e resultado de negócio.
+Engenheiro de Software Sênior com <b>6 anos de experiência</b> em produtos digitais e sistemas críticos. Atuo de ponta a ponta com <b>.NET</b>, arquitetura distribuída, integrações, dados e IA aplicada. Na iBR, trabalho na modernização do ERP, no módulo Financeiro e em análise de risco com machine learning, conectando decisões técnicas a confiabilidade operacional e resultado de negócio.
 
 <b>Expertise comprovada em:</b> <br>
 <ul>
@@ -71,8 +71,7 @@ Engenheiro de Software Sênior com <b>mais de 5 anos de experiência</b> em prod
 
 ## 🎓 Educação
 
-<b>Ciência da Computação</b> — Unisociesc, Joinville/SC (2025–2027, Previsão) <br>
-<b>Média:</b> 9,49
+<b>Análise e Desenvolvimento de Sistemas</b> — Católica SC (Cursando)
 
 ---
 
