@@ -97,8 +97,8 @@ Engenheiro de Software Sênior com <b>6 anos de experiência</b> em produtos dig
 
 <!-- REPOS-LIST:START -->
 
-- [neural-networks-from-scratch](https://github.com/Viniirb/neural-networks-from-scratch) — Python
 - [portifolio](https://github.com/Viniirb/portifolio) — TypeScript
+- [neural-networks-from-scratch](https://github.com/Viniirb/neural-networks-from-scratch) — Python
 - [formacao-csharp-rocketseat](https://github.com/Viniirb/formacao-csharp-rocketseat) — C#
 - [TesteBluData](https://github.com/Viniirb/TesteBluData) — TypeScript
 - [gemini-rag-lab](https://github.com/Viniirb/gemini-rag-lab) — Python
