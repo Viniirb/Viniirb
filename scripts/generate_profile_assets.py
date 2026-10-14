@@ -483,7 +483,7 @@ def render_repos_markdown(username: str, repos: list[RepoInfo], out_path: Path) 
     lines: list[str] = []
     lines.append(f"# Repositórios ({username})")
     lines.append("")
-    lines.append(f"Atualizado automaticamente por GitHub Actions em {dt.datetime.now(dt.timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}.\n")
+    lines.append("Atualizado automaticamente por GitHub Actions.\n")
     lines.append("| Repositório | Linguagem | Stars | Último push |")
     lines.append("|---|---:|---:|---:|")
 
@@ -545,17 +545,22 @@ def update_readme_repo_section(username: str, repos: list[RepoInfo]) -> None:
         except Exception:
             return iso
 
-    # Render combined repos (no need for separate cards since we have the overview SVG)
-    lines: list[str] = []
-    lines.append(start_marker)
-    lines.append("")
-    lines.append(f"<p align='center'><em>📅 Atualizado em {dt.datetime.now(dt.timezone.utc).strftime('%d/%m/%Y às %H:%M UTC')}</em></p>")
+    # No timestamp: output must be stable so the workflow only commits on real changes.
+    shown = [
+        r for r in repos
+        if r.name_with_owner.split("/")[-1].lower() != username.lower()
+        and not r.name_with_owner.split("/")[-1].lower().startswith("skills-")
+    ]
+    lines: list[str] = [start_marker, ""]
+    for r in shown:
+        lang = r.primary_language or "—"
+        lines.append(f"- [{r.name_with_owner.split('/')[-1]}]({r.url}) — {lang}")
     lines.append("")
     lines.append(end_marker)
 
-    before = content[: start_idx]
+    before = content[: start_idx].rstrip("\n")
     after = content[end_idx + len(end_marker) :]
-    updated = before + "\n" + "\n".join(lines) + "\n" + after.lstrip("\n")
+    updated = before + "\n\n" + "\n".join(lines) + "\n" + after.lstrip("\n")
     readme_path.write_text(updated, encoding="utf-8")
 
 
@@ -591,7 +596,7 @@ def main() -> None:
     print(f"✓ Created: {OUT_DIR / 'repos-overview.svg'}")
     
 
-    print("\n�📝 Generating repositories.md...")
+    print("\n📝 Generating repositories.md...")
     render_repos_markdown(username=username, repos=repos, out_path=OUT_DIR / "repositories.md")
     print(f"✓ Created: {OUT_DIR / 'repositories.md'}")
     
