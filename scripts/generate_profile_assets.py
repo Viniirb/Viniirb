@@ -512,7 +512,7 @@ def update_readme_repo_section(username: str, repos: list[RepoInfo]) -> None:
 
     before = content[: start_idx].rstrip("\n")
     after = content[end_idx + len(end_marker) :]
-    updated = before + "\n\n" + "\n".join(lines) + "\n" + after.lstrip("\n")
+    updated = before + "\n\n" + "\n".join(lines) + "\n\n" + after.lstrip("\n")
     readme_path.write_text(updated, encoding="utf-8")
 
 

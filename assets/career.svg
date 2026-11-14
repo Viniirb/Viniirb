@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="684" viewBox="0 0 900 684" role="img" aria-label="Experiência: iBR Software (Abr 2026 → Nov 2026); N Tecnologias · Coopercargo (Fev 2025 → Abr 2026); EOS · Organização e Sistemas (Dez 2023 → Ago 2024); Blump (Nov 2023 → Dez 2023); Inovvati Tecnologia (Set 2021 → Out 2023)">
+<title>Experiência: iBR Software (Abr 2026 → Nov 2026); N Tecnologias · Coopercargo (Fev 2025 → Abr 2026); EOS · Organização e Sistemas (Dez 2023 → Ago 2024); Blump (Nov 2023 → Dez 2023); Inovvati Tecnologia (Set 2021 → Out 2023)</title>
+<style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:13px}</style>
+<rect width="900" height="684" rx="12" fill="#0d1117"/>
+<rect x="0.5" y="0.5" width="899" height="683" rx="12" fill="none" stroke="#30363d"/>
+<path d="M0 12a12 12 0 0 1 12-12h876a12 12 0 0 1 12 12v24H0z" fill="#161b22"/>
+<line x1="0" y1="36" x2="900" y2="36" stroke="#30363d"/>
+<circle cx="22" cy="18" r="6" fill="#ff5f56"/>
+<circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
+<circle cx="62" cy="18" r="6" fill="#27c93f"/>
+<text x="450" y="23" text-anchor="middle" fill="#8b949e" font-size="12">git log --career</text>
+<line x1="36" y1="70" x2="36" y2="602" stroke="#30363d" stroke-width="2"/>
+<circle cx="36" cy="70" r="6" fill="#0d1117" stroke="#e3b341" stroke-width="2"/>
+<circle cx="36" cy="70" r="2.5" fill="#e3b341"/>
+<circle cx="36" cy="212" r="6" fill="#0d1117" stroke="#a855f7" stroke-width="2"/>
+<circle cx="36" cy="212" r="2.5" fill="#a855f7"/>
+<circle cx="36" cy="354" r="6" fill="#0d1117" stroke="#a855f7" stroke-width="2"/>
+<circle cx="36" cy="354" r="2.5" fill="#a855f7"/>
+<circle cx="36" cy="478" r="6" fill="#0d1117" stroke="#a855f7" stroke-width="2"/>
+<circle cx="36" cy="478" r="2.5" fill="#a855f7"/>
+<circle cx="36" cy="602" r="6" fill="#0d1117" stroke="#a855f7" stroke-width="2"/>
+<circle cx="36" cy="602" r="2.5" fill="#a855f7"/>
+<text x="52" y="74" fill="#8b949e" font-size="12">Abr 2026 → Nov 2026</text>
+<text x="214" y="74" fill="#a855f7" font-weight="700" font-size="14">iBR Software</text>
+<rect x="332.8" y="60" width="221.6" height="22" rx="11" fill="#2a2208" stroke="#e3b341"/>
+<text x="443.6" y="75" text-anchor="middle" fill="#e3b341" font-size="12" font-weight="700">★ Destaque do mês · Out/2026</text>
+<text x="214" y="98" fill="#c9d1d9" font-size="12">Modernização do ERP em arquitetura distribuída (.NET), novo módulo Financeiro (contas a</text>
+<text x="214" y="116" fill="#c9d1d9" font-size="12">pagar/receber, baixas, plano de contas, centros de custo), cutover com reconciliação,</text>
+<text x="214" y="134" fill="#c9d1d9" font-size="12">idempotência e feature flags, pipeline de ML para risco financeiro.</text>
+<text x="214" y="152" fill="#8b949e" font-size="11">ERP modernization on distributed .NET, new Finance module, cutover with reconciliation and</text>
+<text x="214" y="168" fill="#8b949e" font-size="11">idempotency, ML pipeline for financial risk.</text>
+<text x="52" y="216" fill="#8b949e" font-size="12">Fev 2025 → Abr 2026</text>
+<text x="214" y="216" fill="#a855f7" font-weight="700" font-size="14">N Tecnologias · Coopercargo</text>
+<text x="214" y="240" fill="#c9d1d9" font-size="12">Liderança da migração completa de ERP e da evolução de monólito para serviços .NET;</text>
+<text x="214" y="258" fill="#c9d1d9" font-size="12">agentes de IA generativa com execução segura de SQL/NoSQL; automação com n8n; app Ionic;</text>
+<text x="214" y="276" fill="#c9d1d9" font-size="12">Supabase.</text>
+<text x="214" y="294" fill="#8b949e" font-size="11">Led the full ERP migration and monolith-to-.NET-services evolution; generative AI agents with safe</text>
+<text x="214" y="310" fill="#8b949e" font-size="11">SQL/NoSQL execution; n8n; Ionic app.</text>
+<text x="52" y="358" fill="#8b949e" font-size="12">Dez 2023 → Ago 2024</text>
+<text x="214" y="358" fill="#a855f7" font-weight="700" font-size="14">EOS · Organização e Sistemas</text>
+<text x="214" y="382" fill="#c9d1d9" font-size="12">Redução de até 70% no tempo de relatórios e consultas SQL Server; apps offline-first com</text>
+<text x="214" y="400" fill="#c9d1d9" font-size="12">.NET MAUI; APIs e aplicações Web em .NET para saneamento.</text>
+<text x="214" y="418" fill="#8b949e" font-size="11">Up to 70% faster SQL Server reports and queries; offline-first .NET MAUI apps; .NET APIs and web</text>
+<text x="214" y="434" fill="#8b949e" font-size="11">apps.</text>
+<text x="52" y="482" fill="#8b949e" font-size="12">Nov 2023 → Dez 2023</text>
+<text x="214" y="482" fill="#a855f7" font-weight="700" font-size="14">Blump</text>
+<text x="214" y="506" fill="#c9d1d9" font-size="12">Full Stack (PJ). 100% do fluxo de pedidos, faturamento e estoque automatizado via ERP</text>
+<text x="214" y="524" fill="#c9d1d9" font-size="12">Tiny; deploy de horas para minutos com CI/CD no Azure DevOps; .NET, Vue.js, n8n.</text>
+<text x="214" y="542" fill="#8b949e" font-size="11">Full Stack contractor. Fully automated order, billing and stock flow; deploys from hours to</text>
+<text x="214" y="558" fill="#8b949e" font-size="11">minutes.</text>
+<text x="52" y="606" fill="#8b949e" font-size="12">Set 2021 → Out 2023</text>
+<text x="214" y="606" fill="#a855f7" font-weight="700" font-size="14">Inovvati Tecnologia</text>
+<text x="214" y="630" fill="#c9d1d9" font-size="12">React, Next.js, APIs REST e GraphQL, modernização de sistemas legados .NET.</text>
+<text x="214" y="648" fill="#8b949e" font-size="11">React, Next.js, REST and GraphQL APIs, legacy .NET modernization.</text>
+</svg>
