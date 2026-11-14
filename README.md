@@ -12,9 +12,9 @@
 
 ## `$ cat about.md`
 
-**PT** · Engenheiro de Software Sênior com 6 anos em produtos digitais e sistemas críticos. Atuo de ponta a ponta com **.NET**, arquitetura distribuída, integrações, dados e IA aplicada. Na iBR, modernizo o ERP, estruturo o módulo Financeiro e construo análise de risco com machine learning.
-
-**EN** · Senior Software Engineer with 6 years building digital products and mission-critical systems. End-to-end work with **.NET**, distributed architecture, integrations, data and applied AI. At iBR I modernize the ERP, build the Finance module and a machine learning risk-analysis pipeline.
+<div align="center">
+  <img src="assets/about.svg" alt="Engenheiro de Software Sênior, 6 anos, .NET, arquitetura distribuída, IA aplicada · Senior Software Engineer, 6 years" width="100%" />
+</div>
 
 <div align="center">
   <img src="assets/highlights.svg" alt="Destaques: 6+ anos, -70% tempo de relatórios, 100% automação de pedidos, deploy de horas para minutos" width="100%" />
@@ -28,36 +28,15 @@
 
 ## `$ git log --career`
 
-| Período · Period | Empresa · Company | Foco · Focus |
-|---|---|---|
-| Abr 2026 → hoje | **iBR Software** | Modernização do ERP (.NET distribuído), novo Financeiro, cutover com reconciliação e idempotência, ML para risco financeiro · ERP modernization, Finance module, ML risk pipeline |
-| Fev 2025 → Abr 2026 | **N Tecnologias · Coopercargo** | Migração de ERP, monólito → serviços .NET, agentes de IA com SQL seguro, n8n, app Ionic · ERP migration, monolith → .NET services, AI agents, n8n |
-| Dez 2023 → Ago 2024 | **EOS** | -70% no tempo de relatórios SQL Server, apps offline-first com .NET MAUI · -70% report time, offline-first MAUI apps |
+<div align="center">
+  <img src="assets/career.svg" alt="Experiência: iBR Software (Abr–Nov 2026, destaque do mês em outubro), N Tecnologias · Coopercargo, EOS, Blump, Inovvati" width="100%" />
+</div>
 
-<details>
-  <summary><b>Anteriores · Earlier</b></summary>
+## `$ ls ./edu ./certs`
 
-- **Blump** (Nov–Dez 2023) · Full Stack PJ. 100% do fluxo de pedidos, faturamento e estoque automatizado via ERP Tiny; deploy de horas para minutos com Azure DevOps · Fully automated order, billing and stock flow; deploys from hours to minutes.
-- **Inovvati Tecnologia** (Set 2021–Out 2023) · React, Next.js, REST e GraphQL, modernização de legado .NET · React, Next.js, REST/GraphQL, legacy .NET modernization.
-
-</details>
-
-## `$ ls ./education ./certs`
-
-**Análise e Desenvolvimento de Sistemas** · Católica SC (cursando · in progress)
-
-<details>
-  <summary><b>Certificações · Certifications</b></summary>
-
-- **2026** · Claude 101 e Claude Code in Action (Anthropic)
-- **2026** · Engenharia de Prompt e Redes Neurais (Rocketseat)
-- **2026** · Fundamentos de C# e Intro .NET (Rocketseat / .NET)
-- **2025** · Azure Big Data e Microsoft Fabric (Udemy)
-- **2025** · Cibersegurança e módulos DIO (Santander / DIO)
-- **2025** · NLW: React, React Native, Node.js e Python (Rocketseat)
-- **2024** · SEO para Devs (Rocketseat)
-
-</details>
+<div align="center">
+  <img src="assets/education.svg" alt="Análise e Desenvolvimento de Sistemas (Católica SC, cursando) e certificações 2024–2026" width="100%" />
+</div>
 
 ## `$ gh repo list`
 
@@ -73,14 +52,6 @@
 - [NLW-Expert---Rocketseat](https://github.com/Viniirb/NLW-Expert---Rocketseat) — Python
 
 <!-- REPOS-LIST:END -->
-## `$ ./contributions --snake`
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Viniirb/Viniirb/output/snake.svg">
-    <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/Viniirb/Viniirb/output/snake-dark.svg">
-  </picture>
-</div>
 
 ---
 
