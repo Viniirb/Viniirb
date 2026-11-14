@@ -73,7 +73,6 @@
 - [NLW-Expert---Rocketseat](https://github.com/Viniirb/NLW-Expert---Rocketseat) — Python
 
 <!-- REPOS-LIST:END -->
-
 ## `$ ./contributions --snake`
 
 <div align="center">
