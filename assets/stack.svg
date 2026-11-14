@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Stack técnica: backend, frontend, mobile, dados e IA, integrações e DevOps">
+<title>Stack técnica: backend, frontend, mobile, dados e IA, integrações e DevOps</title>
+<style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:13px}</style>
+<rect width="900" height="300" rx="12" fill="#0d1117"/>
+<rect x="0.5" y="0.5" width="899" height="299" rx="12" fill="none" stroke="#30363d"/>
+<path d="M0 12a12 12 0 0 1 12-12h876a12 12 0 0 1 12 12v24H0z" fill="#161b22"/>
+<line x1="0" y1="36" x2="900" y2="36" stroke="#30363d"/>
+<circle cx="22" cy="18" r="6" fill="#ff5f56"/>
+<circle cx="42" cy="18" r="6" fill="#ffbd2e"/>
+<circle cx="62" cy="18" r="6" fill="#27c93f"/>
+<text x="450" y="23" text-anchor="middle" fill="#8b949e" font-size="12">tree ./stack</text>
+<text x="24" y="76" fill="#3fb950">backend/</text>
+<rect x="152.0" y="62" width="49.2" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="176.6" y="77" text-anchor="middle" fill="#c9d1d9" font-size="12">.NET</text>
+<rect x="209.2" y="62" width="33.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="226.0" y="77" text-anchor="middle" fill="#c9d1d9" font-size="12">C#</text>
+<rect x="250.8" y="62" width="111.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="306.6" y="77" text-anchor="middle" fill="#c9d1d9" font-size="12">ASP.NET Core</text>
+<rect x="370.4" y="62" width="72.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="406.7" y="77" text-anchor="middle" fill="#c9d1d9" font-size="12">EF Core</text>
+<rect x="451.0" y="62" width="72.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="487.3" y="77" text-anchor="middle" fill="#c9d1d9" font-size="12">Node.js</text>
+<rect x="531.6" y="62" width="49.2" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="556.2" y="77" text-anchor="middle" fill="#c9d1d9" font-size="12">REST</text>
+<rect x="588.8" y="62" width="72.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="625.1" y="77" text-anchor="middle" fill="#c9d1d9" font-size="12">GraphQL</text>
+<rect x="669.4" y="62" width="64.8" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="701.8" y="77" text-anchor="middle" fill="#c9d1d9" font-size="12">Python</text>
+<text x="24" y="114" fill="#3fb950">frontend/</text>
+<rect x="152.0" y="100" width="72.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="188.3" y="115" text-anchor="middle" fill="#c9d1d9" font-size="12">Angular</text>
+<rect x="232.6" y="100" width="57.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="261.1" y="115" text-anchor="middle" fill="#c9d1d9" font-size="12">React</text>
+<rect x="297.6" y="100" width="72.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="333.9" y="115" text-anchor="middle" fill="#c9d1d9" font-size="12">Next.js</text>
+<rect x="378.2" y="100" width="64.8" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="410.6" y="115" text-anchor="middle" fill="#c9d1d9" font-size="12">Vue.js</text>
+<rect x="451.0" y="100" width="96.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="499.0" y="115" text-anchor="middle" fill="#c9d1d9" font-size="12">TypeScript</text>
+<rect x="555.0" y="100" width="80.4" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="595.2" y="115" text-anchor="middle" fill="#c9d1d9" font-size="12">Solid.js</text>
+<rect x="643.4" y="100" width="80.4" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="683.6" y="115" text-anchor="middle" fill="#c9d1d9" font-size="12">Tailwind</text>
+<rect x="731.8" y="100" width="72.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="768.1" y="115" text-anchor="middle" fill="#c9d1d9" font-size="12">PrimeNG</text>
+<text x="24" y="152" fill="#3fb950">mobile/</text>
+<rect x="152.0" y="138" width="57.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="180.5" y="153" text-anchor="middle" fill="#c9d1d9" font-size="12">Ionic</text>
+<rect x="217.0" y="138" width="88.2" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="261.1" y="153" text-anchor="middle" fill="#c9d1d9" font-size="12">.NET MAUI</text>
+<rect x="313.2" y="138" width="88.2" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="357.3" y="153" text-anchor="middle" fill="#c9d1d9" font-size="12">Capacitor</text>
+<rect x="409.4" y="138" width="111.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="465.2" y="153" text-anchor="middle" fill="#c9d1d9" font-size="12">React Native</text>
+<text x="24" y="190" fill="#3fb950">dados-ia/</text>
+<rect x="152.0" y="176" width="96.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="200.0" y="191" text-anchor="middle" fill="#c9d1d9" font-size="12">SQL Server</text>
+<rect x="256.0" y="176" width="96.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="304.0" y="191" text-anchor="middle" fill="#c9d1d9" font-size="12">PostgreSQL</text>
+<rect x="360.0" y="176" width="80.4" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="400.2" y="191" text-anchor="middle" fill="#c9d1d9" font-size="12">Supabase</text>
+<rect x="448.4" y="176" width="33.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="465.2" y="191" text-anchor="middle" fill="#c9d1d9" font-size="12">ML</text>
+<rect x="490.0" y="176" width="41.4" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="510.7" y="191" text-anchor="middle" fill="#c9d1d9" font-size="12">RAG</text>
+<rect x="539.4" y="176" width="96.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="587.4" y="191" text-anchor="middle" fill="#c9d1d9" font-size="12">agentes IA</text>
+<text x="24" y="228" fill="#3fb950">integracoes/</text>
+<rect x="152.0" y="214" width="80.4" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="192.2" y="229" text-anchor="middle" fill="#c9d1d9" font-size="12">RabbitMQ</text>
+<rect x="240.4" y="214" width="41.4" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="261.1" y="229" text-anchor="middle" fill="#c9d1d9" font-size="12">n8n</text>
+<rect x="289.8" y="214" width="80.4" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="330.0" y="229" text-anchor="middle" fill="#c9d1d9" font-size="12">webhooks</text>
+<rect x="378.2" y="214" width="49.2" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="402.8" y="229" text-anchor="middle" fill="#c9d1d9" font-size="12">Tiny</text>
+<rect x="435.4" y="214" width="64.8" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="467.8" y="229" text-anchor="middle" fill="#c9d1d9" font-size="12">Benner</text>
+<rect x="508.2" y="214" width="111.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="564.0" y="229" text-anchor="middle" fill="#c9d1d9" font-size="12">idempotência</text>
+<text x="24" y="266" fill="#3fb950">devops/</text>
+<rect x="152.0" y="252" width="111.6" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="207.8" y="267" text-anchor="middle" fill="#c9d1d9" font-size="12">Azure DevOps</text>
+<rect x="271.6" y="252" width="64.8" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="304.0" y="267" text-anchor="middle" fill="#c9d1d9" font-size="12">Docker</text>
+<rect x="344.4" y="252" width="41.4" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="365.1" y="267" text-anchor="middle" fill="#c9d1d9" font-size="12">Git</text>
+<rect x="393.8" y="252" width="57.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="422.3" y="267" text-anchor="middle" fill="#c9d1d9" font-size="12">Linux</text>
+<rect x="458.8" y="252" width="57.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="487.3" y="267" text-anchor="middle" fill="#c9d1d9" font-size="12">CI/CD</text>
+<rect x="523.8" y="252" width="57.0" height="22" rx="11" fill="#161b22" stroke="#30363d"/>
+<text x="552.3" y="267" text-anchor="middle" fill="#c9d1d9" font-size="12">Sonar</text>
+</svg>

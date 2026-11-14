@@ -257,120 +257,72 @@ def render_combined_repos_svg(
     repos: list[RepoInfo],
     out_path: Path,
 ) -> None:
-    """Generate a beautiful combined SVG showing all repos with commits, stars, and dates"""
+    """Terminal-styled SVG listing public repos with commit bars, stars and last push."""
     width = 900
-    padding = 24
-    row_h = 55
-    title_h = 55
-    
-    # Filter out the profile repo itself and use total_commits from RepoInfo
-    filtered = []
-    
-    for r in repos:
-        if r.name_with_owner.split('/')[-1].lower() != username.lower():
-            filtered.append((r, r.total_commits))
-    
-    # Sort by commits (descending)
-    filtered.sort(key=lambda x: x[1], reverse=True)
-    
-    if not filtered:
-        height = 200
-        bg = "#0d1117"
-        card = "#161b22"
-        text = "#c9d1d9"
-        muted = "#8b949e"
-        
-        parts = [
-            f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img">',
-            f'<rect x="0" y="0" width="{width}" height="{height}" rx="14" fill="{bg}"/>',
-            f'<rect x="12" y="12" width="{width-24}" height="{height-24}" rx="12" fill="{card}"/>',
-            f'<text x="{padding}" y="80" fill="{text}" font-family="ui-sans-serif,system-ui" font-size="18" font-weight="700">Nenhum repositório encontrado</text>',
-            "</svg>"
-        ]
-        out_path.parent.mkdir(parents=True, exist_ok=True)
-        out_path.write_text("\n".join(parts), encoding="utf-8")
-        return
-    
-    height = padding * 2 + title_h + row_h * len(filtered) + 20
+    row_h = 44
+    top = 62
+    font = "ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace"
+    bg, panel, border = "#0d1117", "#161b22", "#30363d"
+    text, muted, green = "#c9d1d9", "#8b949e", "#3fb950"
+
+    filtered = sorted(
+        (
+            (r, r.total_commits)
+            for r in repos
+            if r.name_with_owner.split("/")[-1].lower() != username.lower()
+            and not r.name_with_owner.split("/")[-1].lower().startswith("skills-")
+        ),
+        key=lambda x: x[1],
+        reverse=True,
+    )
+    rows = max(len(filtered), 1)
+    height = top + rows * row_h + 24
     max_commits = max((c for _, c in filtered), default=1) or 1
-    
-    bg = "#0d1117"
-    card = "#161b22"
-    text = "#c9d1d9"
-    muted = "#8b949e"
-    bar = "#8A2BE2"
-    bar_secondary = "#a855f7"
-    bar_bg = "#21262d"
-    
-    def scale_bar(v: int, max_width: int = 280) -> int:
-        if max_commits == 0:
-            return 0
-        return int((v / max_commits) * max_width)
-    
+
     def fmt_date(iso: str | None) -> str:
         if not iso:
             return "—"
         try:
             return dt.datetime.fromisoformat(iso.replace("Z", "+00:00")).strftime("%d/%m/%y")
-        except:
-            return iso[:10] if iso else "—"
-    
+        except ValueError:
+            return iso[:10]
+
     parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img">',
-        "<defs>",
-        '<linearGradient id="barGradient" x1="0%" y1="0%" x2="100%" y2="0%">',
-        f'  <stop offset="0%" style="stop-color:{bar};stop-opacity:1" />',
-        f'  <stop offset="100%" style="stop-color:{bar_secondary};stop-opacity:1" />',
-        '</linearGradient>',
-        "</defs>",
-        "<style>",
-        ".title{font:700 20px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}",
-        ".sub{font:500 13px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}",
-        ".repo-name{font:700 16px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}",
-        ".stat{font:600 13px ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;}",
-        "</style>",
-        f'<rect x="0" y="0" width="{width}" height="{height}" rx="14" fill="{bg}"/>',
-        f'<rect x="12" y="12" width="{width-24}" height="{height-24}" rx="12" fill="{card}"/>',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="Repositórios públicos de {_escape_xml(username)}">',
+        f"<title>Repositórios públicos de {_escape_xml(username)}</title>",
+        '<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#8A2BE2"/><stop offset="1" stop-color="#a855f7"/></linearGradient></defs>',
+        f"<style>text{{font-family:{font};font-size:13px}}</style>",
+        f'<rect width="{width}" height="{height}" rx="12" fill="{bg}"/>',
+        f'<rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="12" fill="none" stroke="{border}"/>',
+        f'<path d="M0 12a12 12 0 0 1 12-12h{width - 24}a12 12 0 0 1 12 12v24H0z" fill="{panel}"/>',
+        f'<line x1="0" y1="36" x2="{width}" y2="36" stroke="{border}"/>',
+        '<circle cx="22" cy="18" r="6" fill="#ff5f56"/><circle cx="42" cy="18" r="6" fill="#ffbd2e"/><circle cx="62" cy="18" r="6" fill="#27c93f"/>',
+        f'<text x="{width // 2}" y="23" text-anchor="middle" fill="{muted}" font-size="12">gh repo list {_escape_xml(username)} --sort commits</text>',
     ]
-    
-    # Title
-    title = "Repositórios — Atividade e Stats"
-    subtitle = f"@{username} • {len(filtered)} repos com total de {sum(c for _, c in filtered)} commits"
-    parts.append(f'<text x="{padding}" y="{padding + 20}" class="title" fill="{text}">{_escape_xml(title)}</text>')
-    parts.append(f'<text x="{padding}" y="{padding + 42}" class="sub" fill="{muted}">{_escape_xml(subtitle)}</text>')
-    
-    start_y = padding + title_h + 15
-    
+
+    if not filtered:
+        parts.append(f'<text x="24" y="{top + 20}" fill="{muted}">nenhum repositório público encontrado</text>')
+
     for i, (repo, commits) in enumerate(filtered):
-        y = start_y + i * row_h
-        repo_name = repo.name_with_owner.split('/')[-1]
-        display_name = repo_name if len(repo_name) <= 30 else repo_name[:27] + "..."
-        
-        pushed = fmt_date(repo.pushed_at)
-        
-        # Repo name (left) - MAIOR e mais DESTACADO
-        parts.append(f'<text x="{padding}" y="{y + 10}" class="repo-name" fill="{text}">📦 {_escape_xml(display_name)}</text>')
-        
-        # Commits bar (center)
-        bar_x = padding + 260
-        bar_y = y - 2
-        bar_width = scale_bar(commits, 280)
-        parts.append(f'<rect x="{bar_x}" y="{bar_y}" width="280" height="14" rx="7" fill="{bar_bg}"/>')
-        if bar_width > 0:
-            parts.append(f'<rect x="{bar_x}" y="{bar_y}" width="{bar_width}" height="14" rx="7" fill="url(#barGradient)"/>')
-        
-        # Stats (right side - below bar)
-        stats_y = y + 28
-        parts.append(f'<text x="{bar_x}" y="{stats_y}" class="stat" fill="{muted}">💬 {commits} commits</text>')
-        parts.append(f'<text x="{bar_x + 100}" y="{stats_y}" class="stat" fill="{muted}">⭐ {repo.stars}</text>')
-        parts.append(f'<text x="{bar_x + 170}" y="{stats_y}" class="stat" fill="{muted}">📅 {pushed}</text>')
-    
+        y = top + i * row_h
+        name = repo.name_with_owner.split("/")[-1]
+        name = name if len(name) <= 30 else name[:27] + "..."
+        lang = repo.primary_language or "—"
+        fill_w = max(int(commits / max_commits * 260), 4) if commits else 0
+        parts += [
+            f'<text x="24" y="{y + 12}" fill="{green}">❯</text>',
+            f'<text x="44" y="{y + 12}" fill="{text}" font-weight="700">{_escape_xml(name)}</text>',
+            f'<text x="44" y="{y + 30}" fill="{muted}" font-size="11">{_escape_xml(lang)}  ·  ★ {repo.stars}  ·  push {fmt_date(repo.pushed_at)}</text>',
+            f'<rect x="440" y="{y + 2}" width="260" height="10" rx="5" fill="{panel}" stroke="{border}"/>',
+        ]
+        if fill_w:
+            parts.append(f'<rect x="440" y="{y + 2}" width="{fill_w}" height="10" rx="5" fill="url(#g)"/>')
+        parts.append(f'<text x="716" y="{y + 12}" fill="{muted}">{commits} commits</text>')
+
     parts.append("</svg>")
-    
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text("\n".join(parts), encoding="utf-8")
-    print(f"  → Generated combined SVG with {len(filtered)} repositories")
-    print(f"  → File size: {out_path.stat().st_size} bytes")
+    print(f"  → Generated repos SVG with {len(filtered)} repositories ({out_path.stat().st_size} bytes)")
 
 
 def render_commits_svg(
