@@ -28,6 +28,7 @@ class RepoInfo:
     primary_language: str | None
     pushed_at: str | None
     total_commits: int
+    description: str = ""
 
 
 def _require_env(name: str) -> str:
@@ -124,6 +125,7 @@ def fetch_all_repositories(token: str, username: str) -> list[RepoInfo]:
             url
             stargazerCount
             pushedAt
+            description
             primaryLanguage { name }
             defaultBranchRef {
               target {
@@ -173,6 +175,7 @@ def fetch_all_repositories(token: str, username: str) -> list[RepoInfo]:
                     primary_language=str(lang) if lang else None,
                     pushed_at=str(pushed_at) if pushed_at else None,
                     total_commits=total_commits,
+                    description=str(node.get("description") or ""),
                 )
             )
 
@@ -503,10 +506,17 @@ def update_readme_repo_section(username: str, repos: list[RepoInfo]) -> None:
         if r.name_with_owner.split("/")[-1].lower() != username.lower()
         and not r.name_with_owner.split("/")[-1].lower().startswith("skills-")
     ]
-    lines: list[str] = [start_marker, ""]
+    lines: list[str] = [
+        start_marker,
+        "",
+        "| Repositório | Descrição | Stack |",
+        "|---|---|---|",
+    ]
     for r in shown:
-        lang = r.primary_language or "—"
-        lines.append(f"- [{r.name_with_owner.split('/')[-1]}]({r.url}) — {lang}")
+        name = r.name_with_owner.split("/")[-1]
+        desc = r.description.replace("|", "/") or "—"
+        lang = f"`{r.primary_language}`" if r.primary_language else "—"
+        lines.append(f"| [**{name}**]({r.url}) | {desc} | {lang} |")
     lines.append("")
     lines.append(end_marker)
 
