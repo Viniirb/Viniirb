@@ -1,35 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="262" viewBox="0 0 900 262" role="img" aria-label="Repositórios públicos de Viniirb">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="306" viewBox="0 0 900 306" role="img" aria-label="Repositórios públicos de Viniirb">
 <title>Repositórios públicos de Viniirb</title>
 <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#8A2BE2"/><stop offset="1" stop-color="#a855f7"/></linearGradient></defs>
 <style>text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace;font-size:13px}</style>
-<rect width="900" height="262" rx="12" fill="#0d1117"/>
-<rect x="0.5" y="0.5" width="899" height="261" rx="12" fill="none" stroke="#30363d"/>
+<rect width="900" height="306" rx="12" fill="#0d1117"/>
+<rect x="0.5" y="0.5" width="899" height="305" rx="12" fill="none" stroke="#30363d"/>
 <path d="M0 12a12 12 0 0 1 12-12h876a12 12 0 0 1 12 12v24H0z" fill="#161b22"/>
 <line x1="0" y1="36" x2="900" y2="36" stroke="#30363d"/>
 <circle cx="22" cy="18" r="6" fill="#ff5f56"/><circle cx="42" cy="18" r="6" fill="#ffbd2e"/><circle cx="62" cy="18" r="6" fill="#27c93f"/>
 <text x="450" y="23" text-anchor="middle" fill="#8b949e" font-size="12">gh repo list Viniirb --sort commits</text>
 <text x="24" y="74" fill="#3fb950">❯</text>
-<text x="44" y="74" fill="#c9d1d9" font-weight="700">portifolio</text>
-<text x="44" y="92" fill="#8b949e" font-size="11">TypeScript  ·  ★ 1  ·  push 14/10/26</text>
+<text x="44" y="74" fill="#c9d1d9" font-weight="700">machinelearning</text>
+<text x="44" y="92" fill="#8b949e" font-size="11">C#  ·  ★ 0  ·  push 13/11/26</text>
 <rect x="440" y="64" width="260" height="10" rx="5" fill="#161b22" stroke="#30363d"/>
 <rect x="440" y="64" width="260" height="10" rx="5" fill="url(#g)"/>
-<text x="716" y="74" fill="#8b949e">119 commits</text>
+<text x="716" y="74" fill="#8b949e">3157 commits</text>
 <text x="24" y="118" fill="#3fb950">❯</text>
-<text x="44" y="118" fill="#c9d1d9" font-weight="700">NLW-Expert---Rocketseat</text>
-<text x="44" y="136" fill="#8b949e" font-size="11">Python  ·  ★ 1  ·  push 08/02/24</text>
+<text x="44" y="118" fill="#c9d1d9" font-weight="700">portifolio</text>
+<text x="44" y="136" fill="#8b949e" font-size="11">TypeScript  ·  ★ 1  ·  push 14/10/26</text>
 <rect x="440" y="108" width="260" height="10" rx="5" fill="#161b22" stroke="#30363d"/>
-<rect x="440" y="108" width="26" height="10" rx="5" fill="url(#g)"/>
-<text x="716" y="118" fill="#8b949e">12 commits</text>
+<rect x="440" y="108" width="9" height="10" rx="5" fill="url(#g)"/>
+<text x="716" y="118" fill="#8b949e">119 commits</text>
 <text x="24" y="162" fill="#3fb950">❯</text>
-<text x="44" y="162" fill="#c9d1d9" font-weight="700">neural-networks-from-scratch</text>
-<text x="44" y="180" fill="#8b949e" font-size="11">Python  ·  ★ 1  ·  push 01/09/26</text>
+<text x="44" y="162" fill="#c9d1d9" font-weight="700">NLW-Expert---Rocketseat</text>
+<text x="44" y="180" fill="#8b949e" font-size="11">Python  ·  ★ 1  ·  push 08/02/24</text>
 <rect x="440" y="152" width="260" height="10" rx="5" fill="#161b22" stroke="#30363d"/>
-<rect x="440" y="152" width="17" height="10" rx="5" fill="url(#g)"/>
-<text x="716" y="162" fill="#8b949e">8 commits</text>
+<rect x="440" y="152" width="4" height="10" rx="5" fill="url(#g)"/>
+<text x="716" y="162" fill="#8b949e">12 commits</text>
 <text x="24" y="206" fill="#3fb950">❯</text>
-<text x="44" y="206" fill="#c9d1d9" font-weight="700">Bootcamp</text>
-<text x="44" y="224" fill="#8b949e" font-size="11">Python  ·  ★ 1  ·  push 01/12/25</text>
+<text x="44" y="206" fill="#c9d1d9" font-weight="700">neural-networks-from-scratch</text>
+<text x="44" y="224" fill="#8b949e" font-size="11">Python  ·  ★ 1  ·  push 01/09/26</text>
 <rect x="440" y="196" width="260" height="10" rx="5" fill="#161b22" stroke="#30363d"/>
 <rect x="440" y="196" width="4" height="10" rx="5" fill="url(#g)"/>
-<text x="716" y="206" fill="#8b949e">2 commits</text>
+<text x="716" y="206" fill="#8b949e">8 commits</text>
+<text x="24" y="250" fill="#3fb950">❯</text>
+<text x="44" y="250" fill="#c9d1d9" font-weight="700">Bootcamp</text>
+<text x="44" y="268" fill="#8b949e" font-size="11">Python  ·  ★ 1  ·  push 01/12/25</text>
+<rect x="440" y="240" width="260" height="10" rx="5" fill="#161b22" stroke="#30363d"/>
+<rect x="440" y="240" width="4" height="10" rx="5" fill="url(#g)"/>
+<text x="716" y="250" fill="#8b949e">2 commits</text>
 </svg>
