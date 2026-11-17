@@ -10,16 +10,16 @@
 <text x="450" y="23" text-anchor="middle" fill="#8b949e" font-size="12">gh repo list Viniirb --sort commits</text>
 <text x="24" y="74" fill="#3fb950">❯</text>
 <text x="44" y="74" fill="#c9d1d9" font-weight="700">machinelearning</text>
-<text x="44" y="92" fill="#8b949e" font-size="11">C#  ·  ★ 0  ·  push 13/11/26</text>
+<text x="44" y="92" fill="#8b949e" font-size="11">C#  ·  ★ 0  ·  push 16/11/26</text>
 <rect x="440" y="64" width="260" height="10" rx="5" fill="#161b22" stroke="#30363d"/>
 <rect x="440" y="64" width="260" height="10" rx="5" fill="url(#g)"/>
 <text x="716" y="74" fill="#8b949e">3157 commits</text>
 <text x="24" y="118" fill="#3fb950">❯</text>
 <text x="44" y="118" fill="#c9d1d9" font-weight="700">portifolio</text>
-<text x="44" y="136" fill="#8b949e" font-size="11">TypeScript  ·  ★ 1  ·  push 14/10/26</text>
+<text x="44" y="136" fill="#8b949e" font-size="11">TypeScript  ·  ★ 1  ·  push 16/11/26</text>
 <rect x="440" y="108" width="260" height="10" rx="5" fill="#161b22" stroke="#30363d"/>
-<rect x="440" y="108" width="9" height="10" rx="5" fill="url(#g)"/>
-<text x="716" y="118" fill="#8b949e">119 commits</text>
+<rect x="440" y="108" width="10" height="10" rx="5" fill="url(#g)"/>
+<text x="716" y="118" fill="#8b949e">124 commits</text>
 <text x="24" y="162" fill="#3fb950">❯</text>
 <text x="44" y="162" fill="#c9d1d9" font-weight="700">NLW-Expert---Rocketseat</text>
 <text x="44" y="180" fill="#8b949e" font-size="11">Python  ·  ★ 1  ·  push 08/02/24</text>
