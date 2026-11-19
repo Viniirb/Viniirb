@@ -48,6 +48,10 @@
 
 | Repositório | Descrição | Stack |
 |---|---|---|
+| [**agent-eval-lab**](https://github.com/Viniirb/agent-eval-lab) | Construa um harness que mede se um agente de código segue specs, regras e escopo | `TypeScript` |
+| [**english-code-lab**](https://github.com/Viniirb/english-code-lab) | Aprenda inglês pelo código: leitura e escrita técnica, módulo a módulo | `Python` |
+| [**react-lab**](https://github.com/Viniirb/react-lab) | Trilha de React/Next.js do zero até uma funcionalidade nova, módulo a módulo | — |
+| [**kotlin-lab**](https://github.com/Viniirb/kotlin-lab) | Aprenda Kotlin construindo um produto real, módulo a módulo (KMP, Ktor, Compose) | `Kotlin` |
 | [**portifolio**](https://github.com/Viniirb/portifolio) | Este repositório refere-se sobre a criação do meu portifólio profissional | `TypeScript` |
 | [**machinelearning**](https://github.com/Viniirb/machinelearning) | ML.NET is an open source and cross-platform machine learning framework for .NET. | `C#` |
 | [**neural-networks-from-scratch**](https://github.com/Viniirb/neural-networks-from-scratch) | Trilha educacional em português sobre redes neurais: do perceptron a CNNs, LSTMs e Transformers, com exemplos em Python e TensorFlow. | `Python` |
