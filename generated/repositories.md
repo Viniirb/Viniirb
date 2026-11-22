@@ -4,8 +4,8 @@ Atualizado automaticamente por GitHub Actions.
 
 | Repositório | Linguagem | Stars | Último push |
 |---|---:|---:|---:|
+| [Viniirb/Viniirb](https://github.com/Viniirb/Viniirb) | Python | 1 | 2026-11-21 |
 | [Viniirb/machinelearning](https://github.com/Viniirb/machinelearning) | C# | 0 | 2026-11-21 |
-| [Viniirb/Viniirb](https://github.com/Viniirb/Viniirb) | Python | 1 | 2026-11-20 |
 | [Viniirb/agent-eval-lab](https://github.com/Viniirb/agent-eval-lab) | TypeScript | 0 | 2026-11-19 |
 | [Viniirb/english-code-lab](https://github.com/Viniirb/english-code-lab) | Python | 0 | 2026-11-19 |
 | [Viniirb/kotlin-lab](https://github.com/Viniirb/kotlin-lab) | Kotlin | 0 | 2026-11-19 |
